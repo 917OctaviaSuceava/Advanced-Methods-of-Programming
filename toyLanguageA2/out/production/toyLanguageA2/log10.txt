@@ -1,0 +1,432 @@
+ PROGRAM STATE: 
+ > execution stack = [(Ref(int) v;(new(v, 20);(Ref(Ref(int)) a;(new(a, v);(print(v);print(a))))))]
+ > symbol table = {}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(new(v, 20);(Ref(Ref(int)) a;(new(a, v);(print(v);print(a))))), Ref(int) v]
+ > symbol table = {}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(new(v, 20);(Ref(Ref(int)) a;(new(a, v);(print(v);print(a)))))]
+ > symbol table = {v=(0, int)}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(Ref(Ref(int)) a;(new(a, v);(print(v);print(a)))), new(v, 20)]
+ > symbol table = {v=(0, int)}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(Ref(Ref(int)) a;(new(a, v);(print(v);print(a))))]
+ > symbol table = {v=(1, int)}
+ > file table = {}
+ > heap = {1=20}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(new(a, v);(print(v);print(a))), Ref(Ref(int)) a]
+ > symbol table = {v=(1, int)}
+ > file table = {}
+ > heap = {1=20}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(new(a, v);(print(v);print(a)))]
+ > symbol table = {a=(0, Ref(int)), v=(1, int)}
+ > file table = {}
+ > heap = {1=20}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(print(v);print(a)), new(a, v)]
+ > symbol table = {a=(0, Ref(int)), v=(1, int)}
+ > file table = {}
+ > heap = {1=20}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(print(v);print(a))]
+ > symbol table = {a=(2, Ref(int)), v=(1, int)}
+ > file table = {}
+ > heap = {1=20, 2=(1, int)}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [print(a), print(v)]
+ > symbol table = {a=(2, Ref(int)), v=(1, int)}
+ > file table = {}
+ > heap = {1=20, 2=(1, int)}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [print(a)]
+ > symbol table = {a=(2, Ref(int)), v=(1, int)}
+ > file table = {}
+ > heap = {1=20, 2=(1, int)}
+ > output = [(1, int)]
+
+ PROGRAM STATE: 
+ > execution stack = []
+ > symbol table = {a=(2, Ref(int)), v=(1, int)}
+ > file table = {}
+ > heap = {1=20, 2=(1, int)}
+ > output = [(1, int), (2, Ref(int))]
+
+ PROGRAM STATE: 
+ > execution stack = [(Ref(int) v;(new(v, 20);(Ref(Ref(int)) a;(new(a, v);(print(v);print(a))))))]
+ > symbol table = {}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(new(v, 20);(Ref(Ref(int)) a;(new(a, v);(print(v);print(a))))), Ref(int) v]
+ > symbol table = {}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(new(v, 20);(Ref(Ref(int)) a;(new(a, v);(print(v);print(a)))))]
+ > symbol table = {v=(0, int)}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(Ref(Ref(int)) a;(new(a, v);(print(v);print(a)))), new(v, 20)]
+ > symbol table = {v=(0, int)}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(Ref(Ref(int)) a;(new(a, v);(print(v);print(a))))]
+ > symbol table = {v=(1, int)}
+ > file table = {}
+ > heap = {1=20}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(new(a, v);(print(v);print(a))), Ref(Ref(int)) a]
+ > symbol table = {v=(1, int)}
+ > file table = {}
+ > heap = {1=20}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(new(a, v);(print(v);print(a)))]
+ > symbol table = {a=(0, Ref(int)), v=(1, int)}
+ > file table = {}
+ > heap = {1=20}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(print(v);print(a)), new(a, v)]
+ > symbol table = {a=(0, Ref(int)), v=(1, int)}
+ > file table = {}
+ > heap = {1=20}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(print(v);print(a))]
+ > symbol table = {a=(2, Ref(int)), v=(1, int)}
+ > file table = {}
+ > heap = {1=20, 2=(1, int)}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [print(a), print(v)]
+ > symbol table = {a=(2, Ref(int)), v=(1, int)}
+ > file table = {}
+ > heap = {1=20, 2=(1, int)}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [print(a)]
+ > symbol table = {a=(2, Ref(int)), v=(1, int)}
+ > file table = {}
+ > heap = {1=20, 2=(1, int)}
+ > output = [(1, int)]
+
+ PROGRAM STATE: 
+ > execution stack = []
+ > symbol table = {a=(2, Ref(int)), v=(1, int)}
+ > file table = {}
+ > heap = {1=20, 2=(1, int)}
+ > output = [(1, int), (2, Ref(int))]
+
+ PROGRAM STATE: 
+ > execution stack = [(Ref(int) v;(new(v, 20);(Ref(Ref(int)) a;(new(a, v);(print(v);print(a))))))]
+ > id = 0
+ > symbol table = {}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(new(v, 20);(Ref(Ref(int)) a;(new(a, v);(print(v);print(a))))), Ref(int) v]
+ > id = 0
+ > symbol table = {}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(new(v, 20);(Ref(Ref(int)) a;(new(a, v);(print(v);print(a))))), Ref(int) v]
+ > id = 0
+ > symbol table = {}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(new(v, 20);(Ref(Ref(int)) a;(new(a, v);(print(v);print(a)))))]
+ > id = 0
+ > symbol table = {v=(0, int)}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(new(v, 20);(Ref(Ref(int)) a;(new(a, v);(print(v);print(a)))))]
+ > id = 0
+ > symbol table = {v=(0, int)}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(Ref(Ref(int)) a;(new(a, v);(print(v);print(a)))), new(v, 20)]
+ > id = 0
+ > symbol table = {v=(0, int)}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(Ref(Ref(int)) a;(new(a, v);(print(v);print(a)))), new(v, 20)]
+ > id = 0
+ > symbol table = {v=(0, int)}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(Ref(Ref(int)) a;(new(a, v);(print(v);print(a))))]
+ > id = 0
+ > symbol table = {v=(1, int)}
+ > file table = {}
+ > heap = {1=20}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(Ref(Ref(int)) a;(new(a, v);(print(v);print(a))))]
+ > id = 0
+ > symbol table = {v=(1, int)}
+ > file table = {}
+ > heap = {1=20}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(new(a, v);(print(v);print(a))), Ref(Ref(int)) a]
+ > id = 0
+ > symbol table = {v=(1, int)}
+ > file table = {}
+ > heap = {1=20}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(new(a, v);(print(v);print(a))), Ref(Ref(int)) a]
+ > id = 0
+ > symbol table = {v=(1, int)}
+ > file table = {}
+ > heap = {1=20}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(new(a, v);(print(v);print(a)))]
+ > id = 0
+ > symbol table = {a=(0, Ref(int)), v=(1, int)}
+ > file table = {}
+ > heap = {1=20}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(new(a, v);(print(v);print(a)))]
+ > id = 0
+ > symbol table = {a=(0, Ref(int)), v=(1, int)}
+ > file table = {}
+ > heap = {1=20}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(print(v);print(a)), new(a, v)]
+ > id = 0
+ > symbol table = {a=(0, Ref(int)), v=(1, int)}
+ > file table = {}
+ > heap = {1=20}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(print(v);print(a)), new(a, v)]
+ > id = 0
+ > symbol table = {a=(0, Ref(int)), v=(1, int)}
+ > file table = {}
+ > heap = {1=20}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(print(v);print(a))]
+ > id = 0
+ > symbol table = {a=(2, Ref(int)), v=(1, int)}
+ > file table = {}
+ > heap = {1=20, 2=(1, int)}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(print(v);print(a))]
+ > id = 0
+ > symbol table = {a=(2, Ref(int)), v=(1, int)}
+ > file table = {}
+ > heap = {1=20, 2=(1, int)}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [print(a), print(v)]
+ > id = 0
+ > symbol table = {a=(2, Ref(int)), v=(1, int)}
+ > file table = {}
+ > heap = {1=20, 2=(1, int)}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [print(a), print(v)]
+ > id = 0
+ > symbol table = {a=(2, Ref(int)), v=(1, int)}
+ > file table = {}
+ > heap = {1=20, 2=(1, int)}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [print(a)]
+ > id = 0
+ > symbol table = {a=(2, Ref(int)), v=(1, int)}
+ > file table = {}
+ > heap = {1=20, 2=(1, int)}
+ > output = [(1, int)]
+
+ PROGRAM STATE: 
+ > execution stack = [print(a)]
+ > id = 0
+ > symbol table = {a=(2, Ref(int)), v=(1, int)}
+ > file table = {}
+ > heap = {1=20, 2=(1, int)}
+ > output = [(1, int)]
+
+ PROGRAM STATE: 
+ > execution stack = []
+ > id = 0
+ > symbol table = {a=(2, Ref(int)), v=(1, int)}
+ > file table = {}
+ > heap = {1=20, 2=(1, int)}
+ > output = [(1, int), (2, Ref(int))]
+
+ PROGRAM STATE: 
+ > execution stack = [(new(v, 20);(Ref(Ref(int)) a;(new(a, v);(print(v);print(a))))), Ref(int) v]
+ > id = 1
+ > symbol table = {}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(new(v, 20);(Ref(Ref(int)) a;(new(a, v);(print(v);print(a)))))]
+ > id = 1
+ > symbol table = {v=(0, int)}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(Ref(Ref(int)) a;(new(a, v);(print(v);print(a)))), new(v, 20)]
+ > id = 1
+ > symbol table = {v=(0, int)}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(Ref(Ref(int)) a;(new(a, v);(print(v);print(a))))]
+ > id = 1
+ > symbol table = {v=(1, int)}
+ > file table = {}
+ > heap = {1=20}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(new(a, v);(print(v);print(a))), Ref(Ref(int)) a]
+ > id = 1
+ > symbol table = {v=(1, int)}
+ > file table = {}
+ > heap = {1=20}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(new(a, v);(print(v);print(a)))]
+ > id = 1
+ > symbol table = {a=(0, Ref(int)), v=(1, int)}
+ > file table = {}
+ > heap = {1=20}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(print(v);print(a)), new(a, v)]
+ > id = 1
+ > symbol table = {a=(0, Ref(int)), v=(1, int)}
+ > file table = {}
+ > heap = {1=20}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(print(v);print(a))]
+ > id = 1
+ > symbol table = {a=(2, Ref(int)), v=(1, int)}
+ > file table = {}
+ > heap = {1=20, 2=(1, int)}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [print(a), print(v)]
+ > id = 1
+ > symbol table = {a=(2, Ref(int)), v=(1, int)}
+ > file table = {}
+ > heap = {1=20, 2=(1, int)}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [print(a)]
+ > id = 1
+ > symbol table = {a=(2, Ref(int)), v=(1, int)}
+ > file table = {}
+ > heap = {1=20, 2=(1, int)}
+ > output = [(1, int)]
+
+ PROGRAM STATE: 
+ > execution stack = []
+ > id = 1
+ > symbol table = {a=(2, Ref(int)), v=(1, int)}
+ > file table = {}
+ > heap = {1=20, 2=(1, int)}
+ > output = [(1, int), (2, Ref(int))]
+

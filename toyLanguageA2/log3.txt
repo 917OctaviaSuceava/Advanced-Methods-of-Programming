@@ -1,0 +1,15 @@
+ PROGRAM STATE: 
+ > execution stack = [(int a;print(b))]
+ > symbol table = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [print(b), int a]
+ > symbol table = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [print(b)]
+ > symbol table = {a=0}
+ > output = []
+

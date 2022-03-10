@@ -1,0 +1,30 @@
+ PROGRAM STATE: 
+ > execution stack = [(int v;(v=2;print(v)))]
+ > symbol table = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(v=2;print(v)), int v]
+ > symbol table = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(v=2;print(v))]
+ > symbol table = {v=0}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [print(v), v=2]
+ > symbol table = {v=0}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [print(v)]
+ > symbol table = {v=2}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = []
+ > symbol table = {v=2}
+ > output = [2]
+

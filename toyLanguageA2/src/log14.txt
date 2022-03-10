@@ -1,0 +1,168 @@
+ PROGRAM STATE: 
+ > execution stack = [(int v;(v=4;(while((v>0)) { (print(v);v=(v-1)) } ;print(v))))]
+ > symbol table = {}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(v=4;(while((v>0)) { (print(v);v=(v-1)) } ;print(v))), int v]
+ > symbol table = {}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(v=4;(while((v>0)) { (print(v);v=(v-1)) } ;print(v)))]
+ > symbol table = {v=0}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(while((v>0)) { (print(v);v=(v-1)) } ;print(v)), v=4]
+ > symbol table = {v=0}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(while((v>0)) { (print(v);v=(v-1)) } ;print(v))]
+ > symbol table = {v=4}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [print(v), while((v>0)) { (print(v);v=(v-1)) } ]
+ > symbol table = {v=4}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [print(v), while((v>0)) { (print(v);v=(v-1)) } , (print(v);v=(v-1))]
+ > symbol table = {v=4}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [print(v), while((v>0)) { (print(v);v=(v-1)) } , v=(v-1), print(v)]
+ > symbol table = {v=4}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [print(v), while((v>0)) { (print(v);v=(v-1)) } , v=(v-1)]
+ > symbol table = {v=4}
+ > file table = {}
+ > heap = {}
+ > output = [4]
+
+ PROGRAM STATE: 
+ > execution stack = [print(v), while((v>0)) { (print(v);v=(v-1)) } ]
+ > symbol table = {v=3}
+ > file table = {}
+ > heap = {}
+ > output = [4]
+
+ PROGRAM STATE: 
+ > execution stack = [print(v), while((v>0)) { (print(v);v=(v-1)) } , (print(v);v=(v-1))]
+ > symbol table = {v=3}
+ > file table = {}
+ > heap = {}
+ > output = [4]
+
+ PROGRAM STATE: 
+ > execution stack = [print(v), while((v>0)) { (print(v);v=(v-1)) } , v=(v-1), print(v)]
+ > symbol table = {v=3}
+ > file table = {}
+ > heap = {}
+ > output = [4]
+
+ PROGRAM STATE: 
+ > execution stack = [print(v), while((v>0)) { (print(v);v=(v-1)) } , v=(v-1)]
+ > symbol table = {v=3}
+ > file table = {}
+ > heap = {}
+ > output = [4, 3]
+
+ PROGRAM STATE: 
+ > execution stack = [print(v), while((v>0)) { (print(v);v=(v-1)) } ]
+ > symbol table = {v=2}
+ > file table = {}
+ > heap = {}
+ > output = [4, 3]
+
+ PROGRAM STATE: 
+ > execution stack = [print(v), while((v>0)) { (print(v);v=(v-1)) } , (print(v);v=(v-1))]
+ > symbol table = {v=2}
+ > file table = {}
+ > heap = {}
+ > output = [4, 3]
+
+ PROGRAM STATE: 
+ > execution stack = [print(v), while((v>0)) { (print(v);v=(v-1)) } , v=(v-1), print(v)]
+ > symbol table = {v=2}
+ > file table = {}
+ > heap = {}
+ > output = [4, 3]
+
+ PROGRAM STATE: 
+ > execution stack = [print(v), while((v>0)) { (print(v);v=(v-1)) } , v=(v-1)]
+ > symbol table = {v=2}
+ > file table = {}
+ > heap = {}
+ > output = [4, 3, 2]
+
+ PROGRAM STATE: 
+ > execution stack = [print(v), while((v>0)) { (print(v);v=(v-1)) } ]
+ > symbol table = {v=1}
+ > file table = {}
+ > heap = {}
+ > output = [4, 3, 2]
+
+ PROGRAM STATE: 
+ > execution stack = [print(v), while((v>0)) { (print(v);v=(v-1)) } , (print(v);v=(v-1))]
+ > symbol table = {v=1}
+ > file table = {}
+ > heap = {}
+ > output = [4, 3, 2]
+
+ PROGRAM STATE: 
+ > execution stack = [print(v), while((v>0)) { (print(v);v=(v-1)) } , v=(v-1), print(v)]
+ > symbol table = {v=1}
+ > file table = {}
+ > heap = {}
+ > output = [4, 3, 2]
+
+ PROGRAM STATE: 
+ > execution stack = [print(v), while((v>0)) { (print(v);v=(v-1)) } , v=(v-1)]
+ > symbol table = {v=1}
+ > file table = {}
+ > heap = {}
+ > output = [4, 3, 2, 1]
+
+ PROGRAM STATE: 
+ > execution stack = [print(v), while((v>0)) { (print(v);v=(v-1)) } ]
+ > symbol table = {v=0}
+ > file table = {}
+ > heap = {}
+ > output = [4, 3, 2, 1]
+
+ PROGRAM STATE: 
+ > execution stack = [print(v)]
+ > symbol table = {v=0}
+ > file table = {}
+ > heap = {}
+ > output = [4, 3, 2, 1]
+
+ PROGRAM STATE: 
+ > execution stack = []
+ > symbol table = {v=0}
+ > file table = {}
+ > heap = {}
+ > output = [4, 3, 2, 1, 0]
+

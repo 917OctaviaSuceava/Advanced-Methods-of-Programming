@@ -1,0 +1,108 @@
+ PROGRAM STATE: 
+ > execution stack = [(string varf;(varf=C:\Users\Octavia\Desktop\MAP\toyLanguageA2\src\test.in;(int varc;(OpenRFile(varf);(ReadFile(varf, varc);(print(varc);(ReadFile(varf, varc);(print(varc);CloseRFile(varf)))))))))]
+ > symbol table = {}
+ > file table = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(varf=C:\Users\Octavia\Desktop\MAP\toyLanguageA2\src\test.in;(int varc;(OpenRFile(varf);(ReadFile(varf, varc);(print(varc);(ReadFile(varf, varc);(print(varc);CloseRFile(varf)))))))), string varf]
+ > symbol table = {}
+ > file table = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(varf=C:\Users\Octavia\Desktop\MAP\toyLanguageA2\src\test.in;(int varc;(OpenRFile(varf);(ReadFile(varf, varc);(print(varc);(ReadFile(varf, varc);(print(varc);CloseRFile(varf))))))))]
+ > symbol table = {varf=}
+ > file table = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(int varc;(OpenRFile(varf);(ReadFile(varf, varc);(print(varc);(ReadFile(varf, varc);(print(varc);CloseRFile(varf))))))), varf=C:\Users\Octavia\Desktop\MAP\toyLanguageA2\src\test.in]
+ > symbol table = {varf=}
+ > file table = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(int varc;(OpenRFile(varf);(ReadFile(varf, varc);(print(varc);(ReadFile(varf, varc);(print(varc);CloseRFile(varf)))))))]
+ > symbol table = {varf=C:\Users\Octavia\Desktop\MAP\toyLanguageA2\src\test.in}
+ > file table = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(OpenRFile(varf);(ReadFile(varf, varc);(print(varc);(ReadFile(varf, varc);(print(varc);CloseRFile(varf)))))), int varc]
+ > symbol table = {varf=C:\Users\Octavia\Desktop\MAP\toyLanguageA2\src\test.in}
+ > file table = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(OpenRFile(varf);(ReadFile(varf, varc);(print(varc);(ReadFile(varf, varc);(print(varc);CloseRFile(varf))))))]
+ > symbol table = {varf=C:\Users\Octavia\Desktop\MAP\toyLanguageA2\src\test.in, varc=0}
+ > file table = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(ReadFile(varf, varc);(print(varc);(ReadFile(varf, varc);(print(varc);CloseRFile(varf))))), OpenRFile(varf)]
+ > symbol table = {varf=C:\Users\Octavia\Desktop\MAP\toyLanguageA2\src\test.in, varc=0}
+ > file table = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(ReadFile(varf, varc);(print(varc);(ReadFile(varf, varc);(print(varc);CloseRFile(varf)))))]
+ > symbol table = {varf=C:\Users\Octavia\Desktop\MAP\toyLanguageA2\src\test.in, varc=0}
+ > file table = {C:\Users\Octavia\Desktop\MAP\toyLanguageA2\src\test.in=java.io.BufferedReader@3eb07fd3}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(print(varc);(ReadFile(varf, varc);(print(varc);CloseRFile(varf)))), ReadFile(varf, varc)]
+ > symbol table = {varf=C:\Users\Octavia\Desktop\MAP\toyLanguageA2\src\test.in, varc=0}
+ > file table = {C:\Users\Octavia\Desktop\MAP\toyLanguageA2\src\test.in=java.io.BufferedReader@3eb07fd3}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(print(varc);(ReadFile(varf, varc);(print(varc);CloseRFile(varf))))]
+ > symbol table = {varf=C:\Users\Octavia\Desktop\MAP\toyLanguageA2\src\test.in, varc=15}
+ > file table = {C:\Users\Octavia\Desktop\MAP\toyLanguageA2\src\test.in=java.io.BufferedReader@3eb07fd3}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(ReadFile(varf, varc);(print(varc);CloseRFile(varf))), print(varc)]
+ > symbol table = {varf=C:\Users\Octavia\Desktop\MAP\toyLanguageA2\src\test.in, varc=15}
+ > file table = {C:\Users\Octavia\Desktop\MAP\toyLanguageA2\src\test.in=java.io.BufferedReader@3eb07fd3}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(ReadFile(varf, varc);(print(varc);CloseRFile(varf)))]
+ > symbol table = {varf=C:\Users\Octavia\Desktop\MAP\toyLanguageA2\src\test.in, varc=15}
+ > file table = {C:\Users\Octavia\Desktop\MAP\toyLanguageA2\src\test.in=java.io.BufferedReader@3eb07fd3}
+ > output = [15]
+
+ PROGRAM STATE: 
+ > execution stack = [(print(varc);CloseRFile(varf)), ReadFile(varf, varc)]
+ > symbol table = {varf=C:\Users\Octavia\Desktop\MAP\toyLanguageA2\src\test.in, varc=15}
+ > file table = {C:\Users\Octavia\Desktop\MAP\toyLanguageA2\src\test.in=java.io.BufferedReader@3eb07fd3}
+ > output = [15]
+
+ PROGRAM STATE: 
+ > execution stack = [(print(varc);CloseRFile(varf))]
+ > symbol table = {varf=C:\Users\Octavia\Desktop\MAP\toyLanguageA2\src\test.in, varc=50}
+ > file table = {C:\Users\Octavia\Desktop\MAP\toyLanguageA2\src\test.in=java.io.BufferedReader@3eb07fd3}
+ > output = [15]
+
+ PROGRAM STATE: 
+ > execution stack = [CloseRFile(varf), print(varc)]
+ > symbol table = {varf=C:\Users\Octavia\Desktop\MAP\toyLanguageA2\src\test.in, varc=50}
+ > file table = {C:\Users\Octavia\Desktop\MAP\toyLanguageA2\src\test.in=java.io.BufferedReader@3eb07fd3}
+ > output = [15]
+
+ PROGRAM STATE: 
+ > execution stack = [CloseRFile(varf)]
+ > symbol table = {varf=C:\Users\Octavia\Desktop\MAP\toyLanguageA2\src\test.in, varc=50}
+ > file table = {C:\Users\Octavia\Desktop\MAP\toyLanguageA2\src\test.in=java.io.BufferedReader@3eb07fd3}
+ > output = [15, 50]
+
+ PROGRAM STATE: 
+ > execution stack = []
+ > symbol table = {varf=C:\Users\Octavia\Desktop\MAP\toyLanguageA2\src\test.in, varc=50}
+ > file table = {C:\Users\Octavia\Desktop\MAP\toyLanguageA2\src\test.in=java.io.BufferedReader@3eb07fd3}
+ > output = [15, 50]
+
