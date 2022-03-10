@@ -1,0 +1,1712 @@
+ PROGRAM STATE: 
+ > execution stack = [(Ref(int) a;(v=10;(new(a, 22);(fork((wH(a, 30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a))))))), int v]
+ > id = 1
+ > symbol table = {}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(Ref(int) a;(v=10;(new(a, 22);(fork((wH(a, 30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a))))))), int v]
+ > id = 1
+ > symbol table = {}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(Ref(int) a;(v=10;(new(a, 22);(fork((wH(a, 30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a)))))))]
+ > id = 1
+ > symbol table = {v=0}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(Ref(int) a;(v=10;(new(a, 22);(fork((wH(a, 30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a)))))))]
+ > id = 1
+ > symbol table = {v=0}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(v=10;(new(a, 22);(fork((wH(a, 30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a)))))), Ref(int) a]
+ > id = 1
+ > symbol table = {v=0}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(v=10;(new(a, 22);(fork((wH(a, 30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a)))))), Ref(int) a]
+ > id = 1
+ > symbol table = {v=0}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(v=10;(new(a, 22);(fork((wH(a, 30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a))))))]
+ > id = 1
+ > symbol table = {a=(0, int), v=0}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(v=10;(new(a, 22);(fork((wH(a, 30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a))))))]
+ > id = 1
+ > symbol table = {a=(0, int), v=0}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(new(a, 22);(fork((wH(a, 30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a))))), v=10]
+ > id = 1
+ > symbol table = {a=(0, int), v=0}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(new(a, 22);(fork((wH(a, 30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a))))), v=10]
+ > id = 1
+ > symbol table = {a=(0, int), v=0}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(new(a, 22);(fork((wH(a, 30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a)))))]
+ > id = 1
+ > symbol table = {a=(0, int), v=10}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(new(a, 22);(fork((wH(a, 30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a)))))]
+ > id = 1
+ > symbol table = {a=(0, int), v=10}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(fork((wH(a, 30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a)))), new(a, 22)]
+ > id = 1
+ > symbol table = {a=(0, int), v=10}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(fork((wH(a, 30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a)))), new(a, 22)]
+ > id = 1
+ > symbol table = {a=(0, int), v=10}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(fork((wH(a, 30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a))))]
+ > id = 1
+ > symbol table = {a=(1, int), v=10}
+ > file table = {}
+ > heap = {1=22}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(fork((wH(a, 30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a))))]
+ > id = 1
+ > symbol table = {a=(1, int), v=10}
+ > file table = {}
+ > heap = {1=22}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(print(v);print(rH(a))), fork((wH(a, 30);(v=32;(print(v);print(rH(a))))))]
+ > id = 1
+ > symbol table = {a=(1, int), v=10}
+ > file table = {}
+ > heap = {1=22}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(print(v);print(rH(a))), fork((wH(a, 30);(v=32;(print(v);print(rH(a))))))]
+ > id = 1
+ > symbol table = {a=(1, int), v=10}
+ > file table = {}
+ > heap = {1=22}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(print(v);print(rH(a)))]
+ > id = 1
+ > symbol table = {a=(1, int), v=10}
+ > file table = {}
+ > heap = {1=22}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(wH(a, 30);(v=32;(print(v);print(rH(a)))))]
+ > id = 2
+ > symbol table = {a=(1, int), v=10}
+ > file table = {}
+ > heap = {1=22}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(print(v);print(rH(a)))]
+ > id = 1
+ > symbol table = {a=(1, int), v=10}
+ > file table = {}
+ > heap = {1=22}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(wH(a, 30);(v=32;(print(v);print(rH(a)))))]
+ > id = 2
+ > symbol table = {a=(1, int), v=10}
+ > file table = {}
+ > heap = {1=22}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [print(rH(a)), print(v)]
+ > id = 1
+ > symbol table = {a=(1, int), v=10}
+ > file table = {}
+ > heap = {1=22}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(v=32;(print(v);print(rH(a)))), wH(a, 30)]
+ > id = 2
+ > symbol table = {a=(1, int), v=10}
+ > file table = {}
+ > heap = {1=22}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [print(rH(a)), print(v)]
+ > id = 1
+ > symbol table = {a=(1, int), v=10}
+ > file table = {}
+ > heap = {1=22}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(v=32;(print(v);print(rH(a)))), wH(a, 30)]
+ > id = 2
+ > symbol table = {a=(1, int), v=10}
+ > file table = {}
+ > heap = {1=22}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [print(rH(a))]
+ > id = 1
+ > symbol table = {a=(1, int), v=10}
+ > file table = {}
+ > heap = {1=30}
+ > output = [10]
+
+ PROGRAM STATE: 
+ > execution stack = [(v=32;(print(v);print(rH(a))))]
+ > id = 2
+ > symbol table = {a=(1, int), v=10}
+ > file table = {}
+ > heap = {1=30}
+ > output = [10]
+
+ PROGRAM STATE: 
+ > execution stack = [print(rH(a))]
+ > id = 1
+ > symbol table = {a=(1, int), v=10}
+ > file table = {}
+ > heap = {1=30}
+ > output = [10]
+
+ PROGRAM STATE: 
+ > execution stack = [(v=32;(print(v);print(rH(a))))]
+ > id = 2
+ > symbol table = {a=(1, int), v=10}
+ > file table = {}
+ > heap = {1=30}
+ > output = [10]
+
+ PROGRAM STATE: 
+ > execution stack = []
+ > id = 1
+ > symbol table = {a=(1, int), v=10}
+ > file table = {}
+ > heap = {1=30}
+ > output = [10, 30]
+
+ PROGRAM STATE: 
+ > execution stack = [(print(v);print(rH(a))), v=32]
+ > id = 2
+ > symbol table = {a=(1, int), v=10}
+ > file table = {}
+ > heap = {1=30}
+ > output = [10, 30]
+
+ PROGRAM STATE: 
+ > execution stack = []
+ > id = 1
+ > symbol table = {a=(1, int), v=10}
+ > file table = {}
+ > heap = {1=30}
+ > output = [10, 30]
+
+ PROGRAM STATE: 
+ > execution stack = [(print(v);print(rH(a))), v=32]
+ > id = 2
+ > symbol table = {a=(1, int), v=10}
+ > file table = {}
+ > heap = {1=30}
+ > output = [10, 30]
+
+ PROGRAM STATE: 
+ > execution stack = [(Ref(int) a;(v=10;(new(a, 22);(fork((wH(a, 30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a))))))), int v]
+ > id = 1
+ > symbol table = {}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(Ref(int) a;(v=10;(new(a, 22);(fork((wH(a, 30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a))))))), int v]
+ > id = 1
+ > symbol table = {}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(Ref(int) a;(v=10;(new(a, 22);(fork((wH(a, 30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a))))))), int v]
+ > id = 1
+ > symbol table = {}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(Ref(int) a;(v=10;(new(a, 22);(fork((wH(a, 30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a))))))), int v]
+ > id = 1
+ > symbol table = {}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(Ref(int) a;(v=10;(new(a, 22);(fork((wH(a, 30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a)))))))]
+ > id = 1
+ > symbol table = {v=0}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(Ref(int) a;(v=10;(new(a, 22);(fork((wH(a, 30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a)))))))]
+ > id = 1
+ > symbol table = {v=0}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(v=10;(new(a, 22);(fork((wH(a, 30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a)))))), Ref(int) a]
+ > id = 1
+ > symbol table = {v=0}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(v=10;(new(a, 22);(fork((wH(a, 30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a)))))), Ref(int) a]
+ > id = 1
+ > symbol table = {v=0}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(v=10;(new(a, 22);(fork((wH(a, 30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a))))))]
+ > id = 1
+ > symbol table = {a=(0, int), v=0}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(v=10;(new(a, 22);(fork((wH(a, 30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a))))))]
+ > id = 1
+ > symbol table = {a=(0, int), v=0}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(new(a, 22);(fork((wH(a, 30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a))))), v=10]
+ > id = 1
+ > symbol table = {a=(0, int), v=0}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(new(a, 22);(fork((wH(a, 30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a))))), v=10]
+ > id = 1
+ > symbol table = {a=(0, int), v=0}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(new(a, 22);(fork((wH(a, 30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a)))))]
+ > id = 1
+ > symbol table = {a=(0, int), v=10}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(new(a, 22);(fork((wH(a, 30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a)))))]
+ > id = 1
+ > symbol table = {a=(0, int), v=10}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(fork((wH(a, 30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a)))), new(a, 22)]
+ > id = 1
+ > symbol table = {a=(0, int), v=10}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(fork((wH(a, 30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a)))), new(a, 22)]
+ > id = 1
+ > symbol table = {a=(0, int), v=10}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(fork((wH(a, 30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a))))]
+ > id = 1
+ > symbol table = {a=(1, int), v=10}
+ > file table = {}
+ > heap = {1=22}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(fork((wH(a, 30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a))))]
+ > id = 1
+ > symbol table = {a=(1, int), v=10}
+ > file table = {}
+ > heap = {1=22}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(print(v);print(rH(a))), fork((wH(a, 30);(v=32;(print(v);print(rH(a))))))]
+ > id = 1
+ > symbol table = {a=(1, int), v=10}
+ > file table = {}
+ > heap = {1=22}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(print(v);print(rH(a))), fork((wH(a, 30);(v=32;(print(v);print(rH(a))))))]
+ > id = 1
+ > symbol table = {a=(1, int), v=10}
+ > file table = {}
+ > heap = {1=22}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(print(v);print(rH(a)))]
+ > id = 1
+ > symbol table = {a=(1, int), v=10}
+ > file table = {}
+ > heap = {1=22}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(wH(a, 30);(v=32;(print(v);print(rH(a)))))]
+ > id = 2
+ > symbol table = {a=(1, int), v=10}
+ > file table = {}
+ > heap = {1=22}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(print(v);print(rH(a)))]
+ > id = 1
+ > symbol table = {a=(1, int), v=10}
+ > file table = {}
+ > heap = {1=22}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(wH(a, 30);(v=32;(print(v);print(rH(a)))))]
+ > id = 2
+ > symbol table = {a=(1, int), v=10}
+ > file table = {}
+ > heap = {1=22}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [print(rH(a)), print(v)]
+ > id = 1
+ > symbol table = {a=(1, int), v=10}
+ > file table = {}
+ > heap = {1=22}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(v=32;(print(v);print(rH(a)))), wH(a, 30)]
+ > id = 2
+ > symbol table = {a=(1, int), v=10}
+ > file table = {}
+ > heap = {1=22}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [print(rH(a)), print(v)]
+ > id = 1
+ > symbol table = {a=(1, int), v=10}
+ > file table = {}
+ > heap = {1=22}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(v=32;(print(v);print(rH(a)))), wH(a, 30)]
+ > id = 2
+ > symbol table = {a=(1, int), v=10}
+ > file table = {}
+ > heap = {1=22}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [print(rH(a))]
+ > id = 1
+ > symbol table = {a=(1, int), v=10}
+ > file table = {}
+ > heap = {1=30}
+ > output = [10]
+
+ PROGRAM STATE: 
+ > execution stack = [(v=32;(print(v);print(rH(a))))]
+ > id = 2
+ > symbol table = {a=(1, int), v=10}
+ > file table = {}
+ > heap = {1=30}
+ > output = [10]
+
+ PROGRAM STATE: 
+ > execution stack = [print(rH(a))]
+ > id = 1
+ > symbol table = {a=(1, int), v=10}
+ > file table = {}
+ > heap = {1=30}
+ > output = [10]
+
+ PROGRAM STATE: 
+ > execution stack = [(v=32;(print(v);print(rH(a))))]
+ > id = 2
+ > symbol table = {a=(1, int), v=10}
+ > file table = {}
+ > heap = {1=30}
+ > output = [10]
+
+ PROGRAM STATE: 
+ > execution stack = [(Ref(int) a;(v=10;(new(a, 22);(fork((wH(a, 30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a))))))), int v]
+ > id = 1
+ > symbol table = {}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(Ref(int) a;(v=10;(new(a, 22);(fork((wH(a, 30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a))))))), int v]
+ > id = 1
+ > symbol table = {}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(Ref(int) a;(v=10;(new(a, 22);(fork((wH(a, 30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a)))))))]
+ > id = 1
+ > symbol table = {v=0}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(Ref(int) a;(v=10;(new(a, 22);(fork((wH(a, 30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a)))))))]
+ > id = 1
+ > symbol table = {v=0}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(v=10;(new(a, 22);(fork((wH(a, 30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a)))))), Ref(int) a]
+ > id = 1
+ > symbol table = {v=0}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(v=10;(new(a, 22);(fork((wH(a, 30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a)))))), Ref(int) a]
+ > id = 1
+ > symbol table = {v=0}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(v=10;(new(a, 22);(fork((wH(a, 30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a))))))]
+ > id = 1
+ > symbol table = {a=(0, int), v=0}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(v=10;(new(a, 22);(fork((wH(a, 30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a))))))]
+ > id = 1
+ > symbol table = {a=(0, int), v=0}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(new(a, 22);(fork((wH(a, 30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a))))), v=10]
+ > id = 1
+ > symbol table = {a=(0, int), v=0}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(new(a, 22);(fork((wH(a, 30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a))))), v=10]
+ > id = 1
+ > symbol table = {a=(0, int), v=0}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(new(a, 22);(fork((wH(a, 30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a)))))]
+ > id = 1
+ > symbol table = {a=(0, int), v=10}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(new(a, 22);(fork((wH(a, 30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a)))))]
+ > id = 1
+ > symbol table = {a=(0, int), v=10}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(fork((wH(a, 30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a)))), new(a, 22)]
+ > id = 1
+ > symbol table = {a=(0, int), v=10}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(fork((wH(a, 30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a)))), new(a, 22)]
+ > id = 1
+ > symbol table = {a=(0, int), v=10}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(fork((wH(a, 30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a))))]
+ > id = 1
+ > symbol table = {a=(1, int), v=10}
+ > file table = {}
+ > heap = {1=22}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(fork((wH(a, 30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a))))]
+ > id = 1
+ > symbol table = {a=(1, int), v=10}
+ > file table = {}
+ > heap = {1=22}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(print(v);print(rH(a))), fork((wH(a, 30);(v=32;(print(v);print(rH(a))))))]
+ > id = 1
+ > symbol table = {a=(1, int), v=10}
+ > file table = {}
+ > heap = {1=22}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(print(v);print(rH(a))), fork((wH(a, 30);(v=32;(print(v);print(rH(a))))))]
+ > id = 1
+ > symbol table = {a=(1, int), v=10}
+ > file table = {}
+ > heap = {1=22}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(print(v);print(rH(a)))]
+ > id = 1
+ > symbol table = {a=(1, int), v=10}
+ > file table = {}
+ > heap = {1=22}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(wH(a, 30);(v=32;(print(v);print(rH(a)))))]
+ > id = 2
+ > symbol table = {a=(1, int), v=10}
+ > file table = {}
+ > heap = {1=22}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(print(v);print(rH(a)))]
+ > id = 1
+ > symbol table = {a=(1, int), v=10}
+ > file table = {}
+ > heap = {1=22}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(wH(a, 30);(v=32;(print(v);print(rH(a)))))]
+ > id = 2
+ > symbol table = {a=(1, int), v=10}
+ > file table = {}
+ > heap = {1=22}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [print(rH(a)), print(v)]
+ > id = 1
+ > symbol table = {a=(1, int), v=10}
+ > file table = {}
+ > heap = {1=22}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(v=32;(print(v);print(rH(a)))), wH(a, 30)]
+ > id = 2
+ > symbol table = {a=(1, int), v=10}
+ > file table = {}
+ > heap = {1=22}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [print(rH(a)), print(v)]
+ > id = 1
+ > symbol table = {a=(1, int), v=10}
+ > file table = {}
+ > heap = {1=22}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(v=32;(print(v);print(rH(a)))), wH(a, 30)]
+ > id = 2
+ > symbol table = {a=(1, int), v=10}
+ > file table = {}
+ > heap = {1=22}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [print(rH(a))]
+ > id = 1
+ > symbol table = {a=(1, int), v=10}
+ > file table = {}
+ > heap = {1=30}
+ > output = [10]
+
+ PROGRAM STATE: 
+ > execution stack = [(v=32;(print(v);print(rH(a))))]
+ > id = 2
+ > symbol table = {a=(1, int), v=10}
+ > file table = {}
+ > heap = {1=30}
+ > output = [10]
+
+ PROGRAM STATE: 
+ > execution stack = [print(rH(a))]
+ > id = 1
+ > symbol table = {a=(1, int), v=10}
+ > file table = {}
+ > heap = {1=30}
+ > output = [10]
+
+ PROGRAM STATE: 
+ > execution stack = [(v=32;(print(v);print(rH(a))))]
+ > id = 2
+ > symbol table = {a=(1, int), v=10}
+ > file table = {}
+ > heap = {1=30}
+ > output = [10]
+
+ PROGRAM STATE: 
+ > execution stack = []
+ > id = 1
+ > symbol table = {a=(1, int), v=10}
+ > file table = {}
+ > heap = {1=30}
+ > output = [10, 30]
+
+ PROGRAM STATE: 
+ > execution stack = [(print(v);print(rH(a))), v=32]
+ > id = 2
+ > symbol table = {a=(1, int), v=10}
+ > file table = {}
+ > heap = {1=30}
+ > output = [10, 30]
+
+ PROGRAM STATE: 
+ > execution stack = []
+ > id = 1
+ > symbol table = {a=(1, int), v=10}
+ > file table = {}
+ > heap = {1=30}
+ > output = [10, 30]
+
+ PROGRAM STATE: 
+ > execution stack = [(print(v);print(rH(a))), v=32]
+ > id = 2
+ > symbol table = {a=(1, int), v=10}
+ > file table = {}
+ > heap = {1=30}
+ > output = [10, 30]
+
+ PROGRAM STATE: 
+ > execution stack = [(Ref(int) a;(v=10;(new(a, 22);(fork((wH(a, 30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a))))))), int v]
+ > id = 1
+ > symbol table = {}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(Ref(int) a;(v=10;(new(a, 22);(fork((wH(a, 30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a))))))), int v]
+ > id = 1
+ > symbol table = {}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(Ref(int) a;(v=10;(new(a, 22);(fork((wH(a, 30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a)))))))]
+ > id = 1
+ > symbol table = {v=0}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(Ref(int) a;(v=10;(new(a, 22);(fork((wH(a, 30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a)))))))]
+ > id = 1
+ > symbol table = {v=0}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(v=10;(new(a, 22);(fork((wH(a, 30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a)))))), Ref(int) a]
+ > id = 1
+ > symbol table = {v=0}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(v=10;(new(a, 22);(fork((wH(a, 30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a)))))), Ref(int) a]
+ > id = 1
+ > symbol table = {v=0}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(v=10;(new(a, 22);(fork((wH(a, 30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a))))))]
+ > id = 1
+ > symbol table = {a=(0, int), v=0}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(v=10;(new(a, 22);(fork((wH(a, 30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a))))))]
+ > id = 1
+ > symbol table = {a=(0, int), v=0}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(new(a, 22);(fork((wH(a, 30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a))))), v=10]
+ > id = 1
+ > symbol table = {a=(0, int), v=0}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(new(a, 22);(fork((wH(a, 30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a))))), v=10]
+ > id = 1
+ > symbol table = {a=(0, int), v=0}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(new(a, 22);(fork((wH(a, 30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a)))))]
+ > id = 1
+ > symbol table = {a=(0, int), v=10}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(new(a, 22);(fork((wH(a, 30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a)))))]
+ > id = 1
+ > symbol table = {a=(0, int), v=10}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(fork((wH(a, 30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a)))), new(a, 22)]
+ > id = 1
+ > symbol table = {a=(0, int), v=10}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(fork((wH(a, 30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a)))), new(a, 22)]
+ > id = 1
+ > symbol table = {a=(0, int), v=10}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(fork((wH(a, 30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a))))]
+ > id = 1
+ > symbol table = {a=(1, int), v=10}
+ > file table = {}
+ > heap = {1=22}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(fork((wH(a, 30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a))))]
+ > id = 1
+ > symbol table = {a=(1, int), v=10}
+ > file table = {}
+ > heap = {1=22}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(print(v);print(rH(a))), fork((wH(a, 30);(v=32;(print(v);print(rH(a))))))]
+ > id = 1
+ > symbol table = {a=(1, int), v=10}
+ > file table = {}
+ > heap = {1=22}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(print(v);print(rH(a))), fork((wH(a, 30);(v=32;(print(v);print(rH(a))))))]
+ > id = 1
+ > symbol table = {a=(1, int), v=10}
+ > file table = {}
+ > heap = {1=22}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(print(v);print(rH(a)))]
+ > id = 1
+ > symbol table = {a=(1, int), v=10}
+ > file table = {}
+ > heap = {1=22}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(wH(a, 30);(v=32;(print(v);print(rH(a)))))]
+ > id = 2
+ > symbol table = {a=(1, int), v=10}
+ > file table = {}
+ > heap = {1=22}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(print(v);print(rH(a)))]
+ > id = 1
+ > symbol table = {a=(1, int), v=10}
+ > file table = {}
+ > heap = {1=22}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(wH(a, 30);(v=32;(print(v);print(rH(a)))))]
+ > id = 2
+ > symbol table = {a=(1, int), v=10}
+ > file table = {}
+ > heap = {1=22}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [print(rH(a)), print(v)]
+ > id = 1
+ > symbol table = {a=(1, int), v=10}
+ > file table = {}
+ > heap = {1=22}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(v=32;(print(v);print(rH(a)))), wH(a, 30)]
+ > id = 2
+ > symbol table = {a=(1, int), v=10}
+ > file table = {}
+ > heap = {1=22}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [print(rH(a)), print(v)]
+ > id = 1
+ > symbol table = {a=(1, int), v=10}
+ > file table = {}
+ > heap = {1=22}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(v=32;(print(v);print(rH(a)))), wH(a, 30)]
+ > id = 2
+ > symbol table = {a=(1, int), v=10}
+ > file table = {}
+ > heap = {1=22}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [print(rH(a))]
+ > id = 1
+ > symbol table = {a=(1, int), v=10}
+ > file table = {}
+ > heap = {1=30}
+ > output = [10]
+
+ PROGRAM STATE: 
+ > execution stack = [(v=32;(print(v);print(rH(a))))]
+ > id = 2
+ > symbol table = {a=(1, int), v=10}
+ > file table = {}
+ > heap = {1=30}
+ > output = [10]
+
+ PROGRAM STATE: 
+ > execution stack = [print(rH(a))]
+ > id = 1
+ > symbol table = {a=(1, int), v=10}
+ > file table = {}
+ > heap = {1=30}
+ > output = [10]
+
+ PROGRAM STATE: 
+ > execution stack = [(v=32;(print(v);print(rH(a))))]
+ > id = 2
+ > symbol table = {a=(1, int), v=10}
+ > file table = {}
+ > heap = {1=30}
+ > output = [10]
+
+ PROGRAM STATE: 
+ > execution stack = []
+ > id = 1
+ > symbol table = {a=(1, int), v=10}
+ > file table = {}
+ > heap = {1=30}
+ > output = [10, 30]
+
+ PROGRAM STATE: 
+ > execution stack = [(print(v);print(rH(a))), v=32]
+ > id = 2
+ > symbol table = {a=(1, int), v=10}
+ > file table = {}
+ > heap = {1=30}
+ > output = [10, 30]
+
+ PROGRAM STATE: 
+ > execution stack = []
+ > id = 1
+ > symbol table = {a=(1, int), v=10}
+ > file table = {}
+ > heap = {1=30}
+ > output = [10, 30]
+
+ PROGRAM STATE: 
+ > execution stack = [(print(v);print(rH(a))), v=32]
+ > id = 2
+ > symbol table = {a=(1, int), v=10}
+ > file table = {}
+ > heap = {1=30}
+ > output = [10, 30]
+
+ PROGRAM STATE: 
+ > execution stack = [(Ref(int) a;(v=10;(new(a, 22);(fork((wH(a, 30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a)))))))]
+ > id = 1
+ > symbol table = {v=0}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(Ref(int) a;(v=10;(new(a, 22);(fork((wH(a, 30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a)))))))]
+ > id = 1
+ > symbol table = {v=0}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(v=10;(new(a, 22);(fork((wH(a, 30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a))))))]
+ > id = 1
+ > symbol table = {a=(0, int), v=0}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(v=10;(new(a, 22);(fork((wH(a, 30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a))))))]
+ > id = 1
+ > symbol table = {a=(0, int), v=0}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(new(a, 22);(fork((wH(a, 30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a)))))]
+ > id = 1
+ > symbol table = {a=(0, int), v=10}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(new(a, 22);(fork((wH(a, 30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a)))))]
+ > id = 1
+ > symbol table = {a=(0, int), v=10}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(fork((wH(a, 30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a))))]
+ > id = 1
+ > symbol table = {a=(1, int), v=10}
+ > file table = {}
+ > heap = {1=22}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(fork((wH(a, 30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a))))]
+ > id = 1
+ > symbol table = {a=(1, int), v=10}
+ > file table = {}
+ > heap = {1=22}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(print(v);print(rH(a)))]
+ > id = 1
+ > symbol table = {a=(1, int), v=10}
+ > file table = {}
+ > heap = {1=22}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(wH(a, 30);(v=32;(print(v);print(rH(a)))))]
+ > id = 2
+ > symbol table = {a=(1, int), v=10}
+ > file table = {}
+ > heap = {1=22}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(print(v);print(rH(a)))]
+ > id = 1
+ > symbol table = {a=(1, int), v=10}
+ > file table = {}
+ > heap = {1=22}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(wH(a, 30);(v=32;(print(v);print(rH(a)))))]
+ > id = 2
+ > symbol table = {a=(1, int), v=10}
+ > file table = {}
+ > heap = {1=22}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [print(rH(a)), print(v)]
+ > id = 1
+ > symbol table = {a=(1, int), v=10}
+ > file table = {}
+ > heap = {1=30}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(v=32;(print(v);print(rH(a))))]
+ > id = 2
+ > symbol table = {a=(1, int), v=10}
+ > file table = {}
+ > heap = {1=30}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [print(rH(a)), print(v)]
+ > id = 1
+ > symbol table = {a=(1, int), v=10}
+ > file table = {}
+ > heap = {1=30}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(v=32;(print(v);print(rH(a))))]
+ > id = 2
+ > symbol table = {a=(1, int), v=10}
+ > file table = {}
+ > heap = {1=30}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [print(rH(a))]
+ > id = 1
+ > symbol table = {a=(1, int), v=10}
+ > file table = {}
+ > heap = {1=30}
+ > output = [10]
+
+ PROGRAM STATE: 
+ > execution stack = [(print(v);print(rH(a)))]
+ > id = 2
+ > symbol table = {a=(1, int), v=32}
+ > file table = {}
+ > heap = {1=30}
+ > output = [10]
+
+ PROGRAM STATE: 
+ > execution stack = [print(rH(a))]
+ > id = 1
+ > symbol table = {a=(1, int), v=10}
+ > file table = {}
+ > heap = {1=30}
+ > output = [10]
+
+ PROGRAM STATE: 
+ > execution stack = [(print(v);print(rH(a)))]
+ > id = 2
+ > symbol table = {a=(1, int), v=32}
+ > file table = {}
+ > heap = {1=30}
+ > output = [10]
+
+ PROGRAM STATE: 
+ > execution stack = []
+ > id = 1
+ > symbol table = {a=(1, int), v=10}
+ > file table = {}
+ > heap = {1=30}
+ > output = [10, 30, 32]
+
+ PROGRAM STATE: 
+ > execution stack = [print(rH(a))]
+ > id = 2
+ > symbol table = {a=(1, int), v=32}
+ > file table = {}
+ > heap = {1=30}
+ > output = [10, 30, 32]
+
+ PROGRAM STATE: 
+ > execution stack = []
+ > id = 1
+ > symbol table = {a=(1, int), v=10}
+ > file table = {}
+ > heap = {1=30}
+ > output = [10, 30, 32]
+
+ PROGRAM STATE: 
+ > execution stack = [print(rH(a))]
+ > id = 2
+ > symbol table = {a=(1, int), v=32}
+ > file table = {}
+ > heap = {1=30}
+ > output = [10, 30, 32]
+
+ PROGRAM STATE: 
+ > execution stack = [(Ref(int) a;(v=10;(new(a, 22);(fork((wH(a, 30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a))))))), int v]
+ > id = 1
+ > symbol table = {}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(Ref(int) a;(v=10;(new(a, 22);(fork((wH(a, 30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a))))))), int v]
+ > id = 1
+ > symbol table = {}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(Ref(int) a;(v=10;(new(a, 22);(fork((wH(a, 30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a)))))))]
+ > id = 1
+ > symbol table = {v=0}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(Ref(int) a;(v=10;(new(a, 22);(fork((wH(a, 30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a)))))))]
+ > id = 1
+ > symbol table = {v=0}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(v=10;(new(a, 22);(fork((wH(a, 30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a)))))), Ref(int) a]
+ > id = 1
+ > symbol table = {v=0}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(v=10;(new(a, 22);(fork((wH(a, 30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a)))))), Ref(int) a]
+ > id = 1
+ > symbol table = {v=0}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(v=10;(new(a, 22);(fork((wH(a, 30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a))))))]
+ > id = 1
+ > symbol table = {a=(0, int), v=0}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(v=10;(new(a, 22);(fork((wH(a, 30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a))))))]
+ > id = 1
+ > symbol table = {a=(0, int), v=0}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(new(a, 22);(fork((wH(a, 30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a))))), v=10]
+ > id = 1
+ > symbol table = {a=(0, int), v=0}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(new(a, 22);(fork((wH(a, 30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a))))), v=10]
+ > id = 1
+ > symbol table = {a=(0, int), v=0}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(new(a, 22);(fork((wH(a, 30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a)))))]
+ > id = 1
+ > symbol table = {a=(0, int), v=10}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(new(a, 22);(fork((wH(a, 30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a)))))]
+ > id = 1
+ > symbol table = {a=(0, int), v=10}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(fork((wH(a, 30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a)))), new(a, 22)]
+ > id = 1
+ > symbol table = {a=(0, int), v=10}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(fork((wH(a, 30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a)))), new(a, 22)]
+ > id = 1
+ > symbol table = {a=(0, int), v=10}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(fork((wH(a, 30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a))))]
+ > id = 1
+ > symbol table = {a=(1, int), v=10}
+ > file table = {}
+ > heap = {1=22}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(fork((wH(a, 30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a))))]
+ > id = 1
+ > symbol table = {a=(1, int), v=10}
+ > file table = {}
+ > heap = {1=22}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(print(v);print(rH(a))), fork((wH(a, 30);(v=32;(print(v);print(rH(a))))))]
+ > id = 1
+ > symbol table = {a=(1, int), v=10}
+ > file table = {}
+ > heap = {1=22}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(print(v);print(rH(a))), fork((wH(a, 30);(v=32;(print(v);print(rH(a))))))]
+ > id = 1
+ > symbol table = {a=(1, int), v=10}
+ > file table = {}
+ > heap = {1=22}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(print(v);print(rH(a)))]
+ > id = 1
+ > symbol table = {a=(1, int), v=10}
+ > file table = {}
+ > heap = {1=22}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(wH(a, 30);(v=32;(print(v);print(rH(a)))))]
+ > id = 2
+ > symbol table = {a=(1, int), v=10}
+ > file table = {}
+ > heap = {1=22}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(print(v);print(rH(a)))]
+ > id = 1
+ > symbol table = {a=(1, int), v=10}
+ > file table = {}
+ > heap = {1=22}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(wH(a, 30);(v=32;(print(v);print(rH(a)))))]
+ > id = 2
+ > symbol table = {a=(1, int), v=10}
+ > file table = {}
+ > heap = {1=22}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [print(rH(a)), print(v)]
+ > id = 1
+ > symbol table = {a=(1, int), v=10}
+ > file table = {}
+ > heap = {1=22}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(v=32;(print(v);print(rH(a)))), wH(a, 30)]
+ > id = 2
+ > symbol table = {a=(1, int), v=10}
+ > file table = {}
+ > heap = {1=22}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [print(rH(a)), print(v)]
+ > id = 1
+ > symbol table = {a=(1, int), v=10}
+ > file table = {}
+ > heap = {1=22}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(v=32;(print(v);print(rH(a)))), wH(a, 30)]
+ > id = 2
+ > symbol table = {a=(1, int), v=10}
+ > file table = {}
+ > heap = {1=22}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [print(rH(a))]
+ > id = 1
+ > symbol table = {a=(1, int), v=10}
+ > file table = {}
+ > heap = {1=30}
+ > output = [10]
+
+ PROGRAM STATE: 
+ > execution stack = [(v=32;(print(v);print(rH(a))))]
+ > id = 2
+ > symbol table = {a=(1, int), v=10}
+ > file table = {}
+ > heap = {1=30}
+ > output = [10]
+
+ PROGRAM STATE: 
+ > execution stack = [print(rH(a))]
+ > id = 1
+ > symbol table = {a=(1, int), v=10}
+ > file table = {}
+ > heap = {1=30}
+ > output = [10]
+
+ PROGRAM STATE: 
+ > execution stack = [(v=32;(print(v);print(rH(a))))]
+ > id = 2
+ > symbol table = {a=(1, int), v=10}
+ > file table = {}
+ > heap = {1=30}
+ > output = [10]
+
+ PROGRAM STATE: 
+ > execution stack = []
+ > id = 1
+ > symbol table = {a=(1, int), v=10}
+ > file table = {}
+ > heap = {1=30}
+ > output = [10, 30]
+
+ PROGRAM STATE: 
+ > execution stack = [(print(v);print(rH(a))), v=32]
+ > id = 2
+ > symbol table = {a=(1, int), v=10}
+ > file table = {}
+ > heap = {1=30}
+ > output = [10, 30]
+
+ PROGRAM STATE: 
+ > execution stack = []
+ > id = 1
+ > symbol table = {a=(1, int), v=10}
+ > file table = {}
+ > heap = {1=30}
+ > output = [10, 30]
+
+ PROGRAM STATE: 
+ > execution stack = [(print(v);print(rH(a))), v=32]
+ > id = 2
+ > symbol table = {a=(1, int), v=10}
+ > file table = {}
+ > heap = {1=30}
+ > output = [10, 30]
+
+ PROGRAM STATE: 
+ > execution stack = [(Ref(int) a;(v=10;(new(a, 22);(fork((wH(a, 30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a))))))), int v]
+ > id = 1
+ > symbol table = {}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(Ref(int) a;(v=10;(new(a, 22);(fork((wH(a, 30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a))))))), int v]
+ > id = 1
+ > symbol table = {}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(Ref(int) a;(v=10;(new(a, 22);(fork((wH(a, 30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a)))))))]
+ > id = 1
+ > symbol table = {v=0}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(Ref(int) a;(v=10;(new(a, 22);(fork((wH(a, 30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a)))))))]
+ > id = 1
+ > symbol table = {v=0}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(v=10;(new(a, 22);(fork((wH(a, 30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a)))))), Ref(int) a]
+ > id = 1
+ > symbol table = {v=0}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(v=10;(new(a, 22);(fork((wH(a, 30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a)))))), Ref(int) a]
+ > id = 1
+ > symbol table = {v=0}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(v=10;(new(a, 22);(fork((wH(a, 30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a))))))]
+ > id = 1
+ > symbol table = {a=(0, int), v=0}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(v=10;(new(a, 22);(fork((wH(a, 30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a))))))]
+ > id = 1
+ > symbol table = {a=(0, int), v=0}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(new(a, 22);(fork((wH(a, 30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a))))), v=10]
+ > id = 1
+ > symbol table = {a=(0, int), v=0}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(new(a, 22);(fork((wH(a, 30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a))))), v=10]
+ > id = 1
+ > symbol table = {a=(0, int), v=0}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(new(a, 22);(fork((wH(a, 30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a)))))]
+ > id = 1
+ > symbol table = {a=(0, int), v=10}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(new(a, 22);(fork((wH(a, 30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a)))))]
+ > id = 1
+ > symbol table = {a=(0, int), v=10}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(fork((wH(a, 30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a)))), new(a, 22)]
+ > id = 1
+ > symbol table = {a=(0, int), v=10}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(fork((wH(a, 30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a)))), new(a, 22)]
+ > id = 1
+ > symbol table = {a=(0, int), v=10}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(fork((wH(a, 30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a))))]
+ > id = 1
+ > symbol table = {a=(1, int), v=10}
+ > file table = {}
+ > heap = {1=22}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(fork((wH(a, 30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a))))]
+ > id = 1
+ > symbol table = {a=(1, int), v=10}
+ > file table = {}
+ > heap = {1=22}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(print(v);print(rH(a))), fork((wH(a, 30);(v=32;(print(v);print(rH(a))))))]
+ > id = 1
+ > symbol table = {a=(1, int), v=10}
+ > file table = {}
+ > heap = {1=22}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(print(v);print(rH(a))), fork((wH(a, 30);(v=32;(print(v);print(rH(a))))))]
+ > id = 1
+ > symbol table = {a=(1, int), v=10}
+ > file table = {}
+ > heap = {1=22}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(print(v);print(rH(a)))]
+ > id = 1
+ > symbol table = {a=(1, int), v=10}
+ > file table = {}
+ > heap = {1=22}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(wH(a, 30);(v=32;(print(v);print(rH(a)))))]
+ > id = 2
+ > symbol table = {a=(1, int), v=10}
+ > file table = {}
+ > heap = {1=22}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(print(v);print(rH(a)))]
+ > id = 1
+ > symbol table = {a=(1, int), v=10}
+ > file table = {}
+ > heap = {1=22}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(wH(a, 30);(v=32;(print(v);print(rH(a)))))]
+ > id = 2
+ > symbol table = {a=(1, int), v=10}
+ > file table = {}
+ > heap = {1=22}
+ > output = []
+

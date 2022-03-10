@@ -1,0 +1,270 @@
+ PROGRAM STATE: 
+ > execution stack = [(Ref(int) v;(new(v, 20);(print(rH(v));(wH(v, 30);print((rH(v)+5))))))]
+ > symbol table = {}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(new(v, 20);(print(rH(v));(wH(v, 30);print((rH(v)+5))))), Ref(int) v]
+ > symbol table = {}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(new(v, 20);(print(rH(v));(wH(v, 30);print((rH(v)+5)))))]
+ > symbol table = {v=(0, int)}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(print(rH(v));(wH(v, 30);print((rH(v)+5)))), new(v, 20)]
+ > symbol table = {v=(0, int)}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(print(rH(v));(wH(v, 30);print((rH(v)+5))))]
+ > symbol table = {v=(1, int)}
+ > file table = {}
+ > heap = {1=20}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(wH(v, 30);print((rH(v)+5))), print(rH(v))]
+ > symbol table = {v=(1, int)}
+ > file table = {}
+ > heap = {1=20}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(wH(v, 30);print((rH(v)+5)))]
+ > symbol table = {v=(1, int)}
+ > file table = {}
+ > heap = {1=20}
+ > output = [20]
+
+ PROGRAM STATE: 
+ > execution stack = [print((rH(v)+5)), wH(v, 30)]
+ > symbol table = {v=(1, int)}
+ > file table = {}
+ > heap = {1=20}
+ > output = [20]
+
+ PROGRAM STATE: 
+ > execution stack = [(Ref(int) v;(new(v, 20);(print(rH(v));(wH(v, 30);print((rH(v)+5))))))]
+ > symbol table = {}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(new(v, 20);(print(rH(v));(wH(v, 30);print((rH(v)+5))))), Ref(int) v]
+ > symbol table = {}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(new(v, 20);(print(rH(v));(wH(v, 30);print((rH(v)+5)))))]
+ > symbol table = {v=(0, int)}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(print(rH(v));(wH(v, 30);print((rH(v)+5)))), new(v, 20)]
+ > symbol table = {v=(0, int)}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(print(rH(v));(wH(v, 30);print((rH(v)+5))))]
+ > symbol table = {v=(1, int)}
+ > file table = {}
+ > heap = {1=20}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(wH(v, 30);print((rH(v)+5))), print(rH(v))]
+ > symbol table = {v=(1, int)}
+ > file table = {}
+ > heap = {1=20}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(wH(v, 30);print((rH(v)+5)))]
+ > symbol table = {v=(1, int)}
+ > file table = {}
+ > heap = {1=20}
+ > output = [20]
+
+ PROGRAM STATE: 
+ > execution stack = [print((rH(v)+5)), wH(v, 30)]
+ > symbol table = {v=(1, int)}
+ > file table = {}
+ > heap = {1=20}
+ > output = [20]
+
+ PROGRAM STATE: 
+ > execution stack = [print((rH(v)+5))]
+ > symbol table = {v=(1, int)}
+ > file table = {}
+ > heap = {1=30}
+ > output = [20]
+
+ PROGRAM STATE: 
+ > execution stack = []
+ > symbol table = {v=(1, int)}
+ > file table = {}
+ > heap = {1=30}
+ > output = [20, 35]
+
+ PROGRAM STATE: 
+ > execution stack = [(new(v, 20);(print(rH(v));(wH(v, 30);print((rH(v)+5))))), Ref(int) v]
+ > id = 1
+ > symbol table = {}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(new(v, 20);(print(rH(v));(wH(v, 30);print((rH(v)+5))))), Ref(int) v]
+ > id = 1
+ > symbol table = {}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(new(v, 20);(print(rH(v));(wH(v, 30);print((rH(v)+5)))))]
+ > id = 1
+ > symbol table = {v=(0, int)}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(new(v, 20);(print(rH(v));(wH(v, 30);print((rH(v)+5)))))]
+ > id = 1
+ > symbol table = {v=(0, int)}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(print(rH(v));(wH(v, 30);print((rH(v)+5)))), new(v, 20)]
+ > id = 1
+ > symbol table = {v=(0, int)}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(print(rH(v));(wH(v, 30);print((rH(v)+5)))), new(v, 20)]
+ > id = 1
+ > symbol table = {v=(0, int)}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(print(rH(v));(wH(v, 30);print((rH(v)+5))))]
+ > id = 1
+ > symbol table = {v=(1, int)}
+ > file table = {}
+ > heap = {1=20}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(print(rH(v));(wH(v, 30);print((rH(v)+5))))]
+ > id = 1
+ > symbol table = {v=(1, int)}
+ > file table = {}
+ > heap = {1=20}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(wH(v, 30);print((rH(v)+5))), print(rH(v))]
+ > id = 1
+ > symbol table = {v=(1, int)}
+ > file table = {}
+ > heap = {1=20}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(wH(v, 30);print((rH(v)+5))), print(rH(v))]
+ > id = 1
+ > symbol table = {v=(1, int)}
+ > file table = {}
+ > heap = {1=20}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(wH(v, 30);print((rH(v)+5)))]
+ > id = 1
+ > symbol table = {v=(1, int)}
+ > file table = {}
+ > heap = {1=20}
+ > output = [20]
+
+ PROGRAM STATE: 
+ > execution stack = [(wH(v, 30);print((rH(v)+5)))]
+ > id = 1
+ > symbol table = {v=(1, int)}
+ > file table = {}
+ > heap = {1=20}
+ > output = [20]
+
+ PROGRAM STATE: 
+ > execution stack = [print((rH(v)+5)), wH(v, 30)]
+ > id = 1
+ > symbol table = {v=(1, int)}
+ > file table = {}
+ > heap = {1=20}
+ > output = [20]
+
+ PROGRAM STATE: 
+ > execution stack = [print((rH(v)+5)), wH(v, 30)]
+ > id = 1
+ > symbol table = {v=(1, int)}
+ > file table = {}
+ > heap = {1=20}
+ > output = [20]
+
+ PROGRAM STATE: 
+ > execution stack = [print((rH(v)+5))]
+ > id = 1
+ > symbol table = {v=(1, int)}
+ > file table = {}
+ > heap = {1=30}
+ > output = [20]
+
+ PROGRAM STATE: 
+ > execution stack = [print((rH(v)+5))]
+ > id = 1
+ > symbol table = {v=(1, int)}
+ > file table = {}
+ > heap = {1=30}
+ > output = [20]
+
+ PROGRAM STATE: 
+ > execution stack = []
+ > id = 1
+ > symbol table = {v=(1, int)}
+ > file table = {}
+ > heap = {1=30}
+ > output = [20, 35]
+
+ PROGRAM STATE: 
+ > execution stack = []
+ > id = 1
+ > symbol table = {v=(1, int)}
+ > file table = {}
+ > heap = {1=30}
+ > output = [20, 35]
+

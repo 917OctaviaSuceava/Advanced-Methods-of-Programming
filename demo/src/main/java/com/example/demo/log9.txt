@@ -1,0 +1,70 @@
+ PROGRAM STATE: 
+ > execution stack = [(int a;(int b;(a=4;(b=7;print((a>b))))))]
+ > symbol table = {}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(int b;(a=4;(b=7;print((a>b))))), int a]
+ > symbol table = {}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(int b;(a=4;(b=7;print((a>b)))))]
+ > symbol table = {a=0}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(a=4;(b=7;print((a>b)))), int b]
+ > symbol table = {a=0}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(a=4;(b=7;print((a>b))))]
+ > symbol table = {a=0, b=0}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(b=7;print((a>b))), a=4]
+ > symbol table = {a=0, b=0}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(b=7;print((a>b)))]
+ > symbol table = {a=4, b=0}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [print((a>b)), b=7]
+ > symbol table = {a=4, b=0}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [print((a>b))]
+ > symbol table = {a=4, b=7}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = []
+ > symbol table = {a=4, b=7}
+ > file table = {}
+ > heap = {}
+ > output = [false]
+

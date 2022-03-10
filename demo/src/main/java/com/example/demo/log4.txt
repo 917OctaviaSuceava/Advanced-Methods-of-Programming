@@ -1,0 +1,176 @@
+ PROGRAM STATE: 
+ > execution stack = [(int b;(int c;(a=2;(b=0;(c=(a/b);print(c)))))), int a]
+ > id = 1
+ > symbol table = {}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(int b;(int c;(a=2;(b=0;(c=(a/b);print(c)))))), int a]
+ > id = 1
+ > symbol table = {}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(int b;(int c;(a=2;(b=0;(c=(a/b);print(c))))))]
+ > id = 1
+ > symbol table = {a=0}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(int b;(int c;(a=2;(b=0;(c=(a/b);print(c))))))]
+ > id = 1
+ > symbol table = {a=0}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(int c;(a=2;(b=0;(c=(a/b);print(c))))), int b]
+ > id = 1
+ > symbol table = {a=0}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(int c;(a=2;(b=0;(c=(a/b);print(c))))), int b]
+ > id = 1
+ > symbol table = {a=0}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(int c;(a=2;(b=0;(c=(a/b);print(c)))))]
+ > id = 1
+ > symbol table = {a=0, b=0}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(int c;(a=2;(b=0;(c=(a/b);print(c)))))]
+ > id = 1
+ > symbol table = {a=0, b=0}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(a=2;(b=0;(c=(a/b);print(c)))), int c]
+ > id = 1
+ > symbol table = {a=0, b=0}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(a=2;(b=0;(c=(a/b);print(c)))), int c]
+ > id = 1
+ > symbol table = {a=0, b=0}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(a=2;(b=0;(c=(a/b);print(c))))]
+ > id = 1
+ > symbol table = {a=0, b=0, c=0}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(a=2;(b=0;(c=(a/b);print(c))))]
+ > id = 1
+ > symbol table = {a=0, b=0, c=0}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(b=0;(c=(a/b);print(c))), a=2]
+ > id = 1
+ > symbol table = {a=0, b=0, c=0}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(b=0;(c=(a/b);print(c))), a=2]
+ > id = 1
+ > symbol table = {a=0, b=0, c=0}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(b=0;(c=(a/b);print(c)))]
+ > id = 1
+ > symbol table = {a=2, b=0, c=0}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(b=0;(c=(a/b);print(c)))]
+ > id = 1
+ > symbol table = {a=2, b=0, c=0}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(c=(a/b);print(c)), b=0]
+ > id = 1
+ > symbol table = {a=2, b=0, c=0}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(c=(a/b);print(c)), b=0]
+ > id = 1
+ > symbol table = {a=2, b=0, c=0}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(c=(a/b);print(c))]
+ > id = 1
+ > symbol table = {a=2, b=0, c=0}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(c=(a/b);print(c))]
+ > id = 1
+ > symbol table = {a=2, b=0, c=0}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [print(c), c=(a/b)]
+ > id = 1
+ > symbol table = {a=2, b=0, c=0}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [print(c), c=(a/b)]
+ > id = 1
+ > symbol table = {a=2, b=0, c=0}
+ > file table = {}
+ > heap = {}
+ > output = []
+

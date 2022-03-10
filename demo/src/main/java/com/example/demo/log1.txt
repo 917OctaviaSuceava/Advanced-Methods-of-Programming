@@ -1,0 +1,656 @@
+ PROGRAM STATE: 
+ > execution stack = [(v=2;print(v)), int v]
+ > id = 1
+ > symbol table = {}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(v=2;print(v)), int v]
+ > id = 1
+ > symbol table = {}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(v=2;print(v))]
+ > id = 1
+ > symbol table = {v=0}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(v=2;print(v))]
+ > id = 1
+ > symbol table = {v=0}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(v=2;print(v)), int v]
+ > id = 1
+ > symbol table = {}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(v=2;print(v)), int v]
+ > id = 1
+ > symbol table = {}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(v=2;print(v))]
+ > id = 1
+ > symbol table = {v=0}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(v=2;print(v))]
+ > id = 1
+ > symbol table = {v=0}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [print(v), v=2]
+ > id = 1
+ > symbol table = {v=0}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [print(v), v=2]
+ > id = 1
+ > symbol table = {v=0}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(v=2;print(v)), int v]
+ > id = 1
+ > symbol table = {}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(v=2;print(v)), int v]
+ > id = 1
+ > symbol table = {}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(v=2;print(v))]
+ > id = 1
+ > symbol table = {v=0}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(v=2;print(v))]
+ > id = 1
+ > symbol table = {v=0}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [print(v), v=2]
+ > id = 1
+ > symbol table = {v=0}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [print(v), v=2]
+ > id = 1
+ > symbol table = {v=0}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [print(v)]
+ > id = 1
+ > symbol table = {v=2}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [print(v)]
+ > id = 1
+ > symbol table = {v=2}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = []
+ > id = 1
+ > symbol table = {v=2}
+ > file table = {}
+ > heap = {}
+ > output = [2]
+
+ PROGRAM STATE: 
+ > execution stack = []
+ > id = 1
+ > symbol table = {v=2}
+ > file table = {}
+ > heap = {}
+ > output = [2]
+
+ PROGRAM STATE: 
+ > execution stack = [(v=2;print(v)), int v]
+ > id = 1
+ > symbol table = {}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(v=2;print(v)), int v]
+ > id = 1
+ > symbol table = {}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(v=2;print(v))]
+ > id = 1
+ > symbol table = {v=0}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(v=2;print(v))]
+ > id = 1
+ > symbol table = {v=0}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [print(v), v=2]
+ > id = 1
+ > symbol table = {v=0}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [print(v), v=2]
+ > id = 1
+ > symbol table = {v=0}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [print(v)]
+ > id = 1
+ > symbol table = {v=2}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [print(v)]
+ > id = 1
+ > symbol table = {v=2}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = []
+ > id = 1
+ > symbol table = {v=2}
+ > file table = {}
+ > heap = {}
+ > output = [2]
+
+ PROGRAM STATE: 
+ > execution stack = []
+ > id = 1
+ > symbol table = {v=2}
+ > file table = {}
+ > heap = {}
+ > output = [2]
+
+ PROGRAM STATE: 
+ > execution stack = [(v=2;print(v)), int v]
+ > id = 1
+ > symbol table = {}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(v=2;print(v)), int v]
+ > id = 1
+ > symbol table = {}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(v=2;print(v))]
+ > id = 1
+ > symbol table = {v=0}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(v=2;print(v))]
+ > id = 1
+ > symbol table = {v=0}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [print(v), v=2]
+ > id = 1
+ > symbol table = {v=0}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [print(v), v=2]
+ > id = 1
+ > symbol table = {v=0}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [print(v)]
+ > id = 1
+ > symbol table = {v=2}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [print(v)]
+ > id = 1
+ > symbol table = {v=2}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = []
+ > id = 1
+ > symbol table = {v=2}
+ > file table = {}
+ > heap = {}
+ > output = [2]
+
+ PROGRAM STATE: 
+ > execution stack = []
+ > id = 1
+ > symbol table = {v=2}
+ > file table = {}
+ > heap = {}
+ > output = [2]
+
+ PROGRAM STATE: 
+ > execution stack = [(v=2;print(v)), int v]
+ > id = 1
+ > symbol table = {}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(v=2;print(v)), int v]
+ > id = 1
+ > symbol table = {}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(v=2;print(v)), int v]
+ > id = 1
+ > symbol table = {}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(v=2;print(v)), int v]
+ > id = 1
+ > symbol table = {}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(v=2;print(v))]
+ > id = 1
+ > symbol table = {v=0}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(v=2;print(v))]
+ > id = 1
+ > symbol table = {v=0}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [print(v), v=2]
+ > id = 1
+ > symbol table = {v=0}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [print(v), v=2]
+ > id = 1
+ > symbol table = {v=0}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [print(v)]
+ > id = 1
+ > symbol table = {v=2}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [print(v)]
+ > id = 1
+ > symbol table = {v=2}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = []
+ > id = 1
+ > symbol table = {v=2}
+ > file table = {}
+ > heap = {}
+ > output = [2]
+
+ PROGRAM STATE: 
+ > execution stack = []
+ > id = 1
+ > symbol table = {v=2}
+ > file table = {}
+ > heap = {}
+ > output = [2]
+
+ PROGRAM STATE: 
+ > execution stack = [(v=2;print(v)), int v]
+ > id = 1
+ > symbol table = {}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(v=2;print(v)), int v]
+ > id = 1
+ > symbol table = {}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(v=2;print(v))]
+ > id = 1
+ > symbol table = {v=0}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(v=2;print(v))]
+ > id = 1
+ > symbol table = {v=0}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [print(v)]
+ > id = 1
+ > symbol table = {v=2}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [print(v)]
+ > id = 1
+ > symbol table = {v=2}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(v=2;print(v))]
+ > id = 1
+ > symbol table = {v=0}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(v=2;print(v))]
+ > id = 1
+ > symbol table = {v=0}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [print(v)]
+ > id = 1
+ > symbol table = {v=2}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [print(v)]
+ > id = 1
+ > symbol table = {v=2}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(v=2;print(v)), int v]
+ > id = 1
+ > symbol table = {}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(v=2;print(v)), int v]
+ > id = 1
+ > symbol table = {}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(v=2;print(v))]
+ > id = 1
+ > symbol table = {v=0}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(v=2;print(v))]
+ > id = 1
+ > symbol table = {v=0}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [print(v), v=2]
+ > id = 1
+ > symbol table = {v=0}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [print(v), v=2]
+ > id = 1
+ > symbol table = {v=0}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [print(v)]
+ > id = 1
+ > symbol table = {v=2}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [print(v)]
+ > id = 1
+ > symbol table = {v=2}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = []
+ > id = 1
+ > symbol table = {v=2}
+ > file table = {}
+ > heap = {}
+ > output = [2]
+
+ PROGRAM STATE: 
+ > execution stack = []
+ > id = 1
+ > symbol table = {v=2}
+ > file table = {}
+ > heap = {}
+ > output = [2]
+
+ PROGRAM STATE: 
+ > execution stack = [(v=2;print(v)), int v]
+ > id = 1
+ > symbol table = {}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(v=2;print(v)), int v]
+ > id = 1
+ > symbol table = {}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(v=2;print(v))]
+ > id = 1
+ > symbol table = {v=0}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(v=2;print(v))]
+ > id = 1
+ > symbol table = {v=0}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [print(v), v=2]
+ > id = 1
+ > symbol table = {v=0}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [print(v), v=2]
+ > id = 1
+ > symbol table = {v=0}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [print(v)]
+ > id = 1
+ > symbol table = {v=2}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [print(v)]
+ > id = 1
+ > symbol table = {v=2}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = []
+ > id = 1
+ > symbol table = {v=2}
+ > file table = {}
+ > heap = {}
+ > output = [2]
+
+ PROGRAM STATE: 
+ > execution stack = []
+ > id = 1
+ > symbol table = {v=2}
+ > file table = {}
+ > heap = {}
+ > output = [2]
+

@@ -1,0 +1,8 @@
+package com.example.demo.Exceptions;
+
+public class InvalidOperand extends ProgramException {
+    public InvalidOperand(String message)
+    {
+        super(message);
+    }
+}

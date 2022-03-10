@@ -1,0 +1,160 @@
+ PROGRAM STATE: 
+ > execution stack = [(int v;(a=true;(IF(a) THEN (v=2) ELSE (v=3));print(v)))), bool a]
+ > id = 1
+ > symbol table = {}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(int v;(a=true;(IF(a) THEN (v=2) ELSE (v=3));print(v)))), bool a]
+ > id = 1
+ > symbol table = {}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(int v;(a=true;(IF(a) THEN (v=2) ELSE (v=3));print(v))))]
+ > id = 1
+ > symbol table = {a=false}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(int v;(a=true;(IF(a) THEN (v=2) ELSE (v=3));print(v))))]
+ > id = 1
+ > symbol table = {a=false}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(a=true;(IF(a) THEN (v=2) ELSE (v=3));print(v))), int v]
+ > id = 1
+ > symbol table = {a=false}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(a=true;(IF(a) THEN (v=2) ELSE (v=3));print(v))), int v]
+ > id = 1
+ > symbol table = {a=false}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(a=true;(IF(a) THEN (v=2) ELSE (v=3));print(v)))]
+ > id = 1
+ > symbol table = {a=false, v=0}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(a=true;(IF(a) THEN (v=2) ELSE (v=3));print(v)))]
+ > id = 1
+ > symbol table = {a=false, v=0}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(IF(a) THEN (v=2) ELSE (v=3));print(v)), a=true]
+ > id = 1
+ > symbol table = {a=false, v=0}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(IF(a) THEN (v=2) ELSE (v=3));print(v)), a=true]
+ > id = 1
+ > symbol table = {a=false, v=0}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(IF(a) THEN (v=2) ELSE (v=3));print(v))]
+ > id = 1
+ > symbol table = {a=true, v=0}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(IF(a) THEN (v=2) ELSE (v=3));print(v))]
+ > id = 1
+ > symbol table = {a=true, v=0}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [print(v), IF(a) THEN (v=2) ELSE (v=3))]
+ > id = 1
+ > symbol table = {a=true, v=0}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [print(v), IF(a) THEN (v=2) ELSE (v=3))]
+ > id = 1
+ > symbol table = {a=true, v=0}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [print(v), v=2]
+ > id = 1
+ > symbol table = {a=true, v=0}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [print(v), v=2]
+ > id = 1
+ > symbol table = {a=true, v=0}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [print(v)]
+ > id = 1
+ > symbol table = {a=true, v=2}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [print(v)]
+ > id = 1
+ > symbol table = {a=true, v=2}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = []
+ > id = 1
+ > symbol table = {a=true, v=2}
+ > file table = {}
+ > heap = {}
+ > output = [2]
+
+ PROGRAM STATE: 
+ > execution stack = []
+ > id = 1
+ > symbol table = {a=true, v=2}
+ > file table = {}
+ > heap = {}
+ > output = [2]
+

@@ -1,0 +1,544 @@
+ PROGRAM STATE: 
+ > execution stack = [(varf=C:\Users\Octavia\Desktop\MAP\demo\src\main\java\com\example\demo\test.in;(int varc;(OpenRFile(varf);(ReadFile(varf, varc);(print(varc);(ReadFile(varf, varc);(print(varc);CloseRFile(varf)))))))), string varf]
+ > id = 1
+ > symbol table = {}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(varf=C:\Users\Octavia\Desktop\MAP\demo\src\main\java\com\example\demo\test.in;(int varc;(OpenRFile(varf);(ReadFile(varf, varc);(print(varc);(ReadFile(varf, varc);(print(varc);CloseRFile(varf)))))))), string varf]
+ > id = 1
+ > symbol table = {}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(varf=C:\Users\Octavia\Desktop\MAP\demo\src\main\java\com\example\demo\test.in;(int varc;(OpenRFile(varf);(ReadFile(varf, varc);(print(varc);(ReadFile(varf, varc);(print(varc);CloseRFile(varf))))))))]
+ > id = 1
+ > symbol table = {varf=}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(varf=C:\Users\Octavia\Desktop\MAP\demo\src\main\java\com\example\demo\test.in;(int varc;(OpenRFile(varf);(ReadFile(varf, varc);(print(varc);(ReadFile(varf, varc);(print(varc);CloseRFile(varf))))))))]
+ > id = 1
+ > symbol table = {varf=}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(int varc;(OpenRFile(varf);(ReadFile(varf, varc);(print(varc);(ReadFile(varf, varc);(print(varc);CloseRFile(varf))))))), varf=C:\Users\Octavia\Desktop\MAP\demo\src\main\java\com\example\demo\test.in]
+ > id = 1
+ > symbol table = {varf=}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(int varc;(OpenRFile(varf);(ReadFile(varf, varc);(print(varc);(ReadFile(varf, varc);(print(varc);CloseRFile(varf))))))), varf=C:\Users\Octavia\Desktop\MAP\demo\src\main\java\com\example\demo\test.in]
+ > id = 1
+ > symbol table = {varf=}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(int varc;(OpenRFile(varf);(ReadFile(varf, varc);(print(varc);(ReadFile(varf, varc);(print(varc);CloseRFile(varf)))))))]
+ > id = 1
+ > symbol table = {varf=C:\Users\Octavia\Desktop\MAP\demo\src\main\java\com\example\demo\test.in}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(int varc;(OpenRFile(varf);(ReadFile(varf, varc);(print(varc);(ReadFile(varf, varc);(print(varc);CloseRFile(varf)))))))]
+ > id = 1
+ > symbol table = {varf=C:\Users\Octavia\Desktop\MAP\demo\src\main\java\com\example\demo\test.in}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(OpenRFile(varf);(ReadFile(varf, varc);(print(varc);(ReadFile(varf, varc);(print(varc);CloseRFile(varf)))))), int varc]
+ > id = 1
+ > symbol table = {varf=C:\Users\Octavia\Desktop\MAP\demo\src\main\java\com\example\demo\test.in}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(OpenRFile(varf);(ReadFile(varf, varc);(print(varc);(ReadFile(varf, varc);(print(varc);CloseRFile(varf)))))), int varc]
+ > id = 1
+ > symbol table = {varf=C:\Users\Octavia\Desktop\MAP\demo\src\main\java\com\example\demo\test.in}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(OpenRFile(varf);(ReadFile(varf, varc);(print(varc);(ReadFile(varf, varc);(print(varc);CloseRFile(varf))))))]
+ > id = 1
+ > symbol table = {varf=C:\Users\Octavia\Desktop\MAP\demo\src\main\java\com\example\demo\test.in, varc=0}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(OpenRFile(varf);(ReadFile(varf, varc);(print(varc);(ReadFile(varf, varc);(print(varc);CloseRFile(varf))))))]
+ > id = 1
+ > symbol table = {varf=C:\Users\Octavia\Desktop\MAP\demo\src\main\java\com\example\demo\test.in, varc=0}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(ReadFile(varf, varc);(print(varc);(ReadFile(varf, varc);(print(varc);CloseRFile(varf))))), OpenRFile(varf)]
+ > id = 1
+ > symbol table = {varf=C:\Users\Octavia\Desktop\MAP\demo\src\main\java\com\example\demo\test.in, varc=0}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(ReadFile(varf, varc);(print(varc);(ReadFile(varf, varc);(print(varc);CloseRFile(varf))))), OpenRFile(varf)]
+ > id = 1
+ > symbol table = {varf=C:\Users\Octavia\Desktop\MAP\demo\src\main\java\com\example\demo\test.in, varc=0}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(ReadFile(varf, varc);(print(varc);(ReadFile(varf, varc);(print(varc);CloseRFile(varf)))))]
+ > id = 1
+ > symbol table = {varf=C:\Users\Octavia\Desktop\MAP\demo\src\main\java\com\example\demo\test.in, varc=0}
+ > file table = {C:\Users\Octavia\Desktop\MAP\demo\src\main\java\com\example\demo\test.in=java.io.BufferedReader@6ccfe401}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(ReadFile(varf, varc);(print(varc);(ReadFile(varf, varc);(print(varc);CloseRFile(varf)))))]
+ > id = 1
+ > symbol table = {varf=C:\Users\Octavia\Desktop\MAP\demo\src\main\java\com\example\demo\test.in, varc=0}
+ > file table = {C:\Users\Octavia\Desktop\MAP\demo\src\main\java\com\example\demo\test.in=java.io.BufferedReader@6ccfe401}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(print(varc);(ReadFile(varf, varc);(print(varc);CloseRFile(varf)))), ReadFile(varf, varc)]
+ > id = 1
+ > symbol table = {varf=C:\Users\Octavia\Desktop\MAP\demo\src\main\java\com\example\demo\test.in, varc=0}
+ > file table = {C:\Users\Octavia\Desktop\MAP\demo\src\main\java\com\example\demo\test.in=java.io.BufferedReader@6ccfe401}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(print(varc);(ReadFile(varf, varc);(print(varc);CloseRFile(varf)))), ReadFile(varf, varc)]
+ > id = 1
+ > symbol table = {varf=C:\Users\Octavia\Desktop\MAP\demo\src\main\java\com\example\demo\test.in, varc=0}
+ > file table = {C:\Users\Octavia\Desktop\MAP\demo\src\main\java\com\example\demo\test.in=java.io.BufferedReader@6ccfe401}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(print(varc);(ReadFile(varf, varc);(print(varc);CloseRFile(varf))))]
+ > id = 1
+ > symbol table = {varf=C:\Users\Octavia\Desktop\MAP\demo\src\main\java\com\example\demo\test.in, varc=15}
+ > file table = {C:\Users\Octavia\Desktop\MAP\demo\src\main\java\com\example\demo\test.in=java.io.BufferedReader@6ccfe401}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(print(varc);(ReadFile(varf, varc);(print(varc);CloseRFile(varf))))]
+ > id = 1
+ > symbol table = {varf=C:\Users\Octavia\Desktop\MAP\demo\src\main\java\com\example\demo\test.in, varc=15}
+ > file table = {C:\Users\Octavia\Desktop\MAP\demo\src\main\java\com\example\demo\test.in=java.io.BufferedReader@6ccfe401}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(ReadFile(varf, varc);(print(varc);CloseRFile(varf))), print(varc)]
+ > id = 1
+ > symbol table = {varf=C:\Users\Octavia\Desktop\MAP\demo\src\main\java\com\example\demo\test.in, varc=15}
+ > file table = {C:\Users\Octavia\Desktop\MAP\demo\src\main\java\com\example\demo\test.in=java.io.BufferedReader@6ccfe401}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(ReadFile(varf, varc);(print(varc);CloseRFile(varf))), print(varc)]
+ > id = 1
+ > symbol table = {varf=C:\Users\Octavia\Desktop\MAP\demo\src\main\java\com\example\demo\test.in, varc=15}
+ > file table = {C:\Users\Octavia\Desktop\MAP\demo\src\main\java\com\example\demo\test.in=java.io.BufferedReader@6ccfe401}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(ReadFile(varf, varc);(print(varc);CloseRFile(varf)))]
+ > id = 1
+ > symbol table = {varf=C:\Users\Octavia\Desktop\MAP\demo\src\main\java\com\example\demo\test.in, varc=15}
+ > file table = {C:\Users\Octavia\Desktop\MAP\demo\src\main\java\com\example\demo\test.in=java.io.BufferedReader@6ccfe401}
+ > heap = {}
+ > output = [15]
+
+ PROGRAM STATE: 
+ > execution stack = [(ReadFile(varf, varc);(print(varc);CloseRFile(varf)))]
+ > id = 1
+ > symbol table = {varf=C:\Users\Octavia\Desktop\MAP\demo\src\main\java\com\example\demo\test.in, varc=15}
+ > file table = {C:\Users\Octavia\Desktop\MAP\demo\src\main\java\com\example\demo\test.in=java.io.BufferedReader@6ccfe401}
+ > heap = {}
+ > output = [15]
+
+ PROGRAM STATE: 
+ > execution stack = [(print(varc);CloseRFile(varf)), ReadFile(varf, varc)]
+ > id = 1
+ > symbol table = {varf=C:\Users\Octavia\Desktop\MAP\demo\src\main\java\com\example\demo\test.in, varc=15}
+ > file table = {C:\Users\Octavia\Desktop\MAP\demo\src\main\java\com\example\demo\test.in=java.io.BufferedReader@6ccfe401}
+ > heap = {}
+ > output = [15]
+
+ PROGRAM STATE: 
+ > execution stack = [(print(varc);CloseRFile(varf)), ReadFile(varf, varc)]
+ > id = 1
+ > symbol table = {varf=C:\Users\Octavia\Desktop\MAP\demo\src\main\java\com\example\demo\test.in, varc=15}
+ > file table = {C:\Users\Octavia\Desktop\MAP\demo\src\main\java\com\example\demo\test.in=java.io.BufferedReader@6ccfe401}
+ > heap = {}
+ > output = [15]
+
+ PROGRAM STATE: 
+ > execution stack = [(print(varc);CloseRFile(varf))]
+ > id = 1
+ > symbol table = {varf=C:\Users\Octavia\Desktop\MAP\demo\src\main\java\com\example\demo\test.in, varc=50}
+ > file table = {C:\Users\Octavia\Desktop\MAP\demo\src\main\java\com\example\demo\test.in=java.io.BufferedReader@6ccfe401}
+ > heap = {}
+ > output = [15]
+
+ PROGRAM STATE: 
+ > execution stack = [(print(varc);CloseRFile(varf))]
+ > id = 1
+ > symbol table = {varf=C:\Users\Octavia\Desktop\MAP\demo\src\main\java\com\example\demo\test.in, varc=50}
+ > file table = {C:\Users\Octavia\Desktop\MAP\demo\src\main\java\com\example\demo\test.in=java.io.BufferedReader@6ccfe401}
+ > heap = {}
+ > output = [15]
+
+ PROGRAM STATE: 
+ > execution stack = [CloseRFile(varf), print(varc)]
+ > id = 1
+ > symbol table = {varf=C:\Users\Octavia\Desktop\MAP\demo\src\main\java\com\example\demo\test.in, varc=50}
+ > file table = {C:\Users\Octavia\Desktop\MAP\demo\src\main\java\com\example\demo\test.in=java.io.BufferedReader@6ccfe401}
+ > heap = {}
+ > output = [15]
+
+ PROGRAM STATE: 
+ > execution stack = [CloseRFile(varf), print(varc)]
+ > id = 1
+ > symbol table = {varf=C:\Users\Octavia\Desktop\MAP\demo\src\main\java\com\example\demo\test.in, varc=50}
+ > file table = {C:\Users\Octavia\Desktop\MAP\demo\src\main\java\com\example\demo\test.in=java.io.BufferedReader@6ccfe401}
+ > heap = {}
+ > output = [15]
+
+ PROGRAM STATE: 
+ > execution stack = [CloseRFile(varf)]
+ > id = 1
+ > symbol table = {varf=C:\Users\Octavia\Desktop\MAP\demo\src\main\java\com\example\demo\test.in, varc=50}
+ > file table = {C:\Users\Octavia\Desktop\MAP\demo\src\main\java\com\example\demo\test.in=java.io.BufferedReader@6ccfe401}
+ > heap = {}
+ > output = [15, 50]
+
+ PROGRAM STATE: 
+ > execution stack = [CloseRFile(varf)]
+ > id = 1
+ > symbol table = {varf=C:\Users\Octavia\Desktop\MAP\demo\src\main\java\com\example\demo\test.in, varc=50}
+ > file table = {C:\Users\Octavia\Desktop\MAP\demo\src\main\java\com\example\demo\test.in=java.io.BufferedReader@6ccfe401}
+ > heap = {}
+ > output = [15, 50]
+
+ PROGRAM STATE: 
+ > execution stack = []
+ > id = 1
+ > symbol table = {varf=C:\Users\Octavia\Desktop\MAP\demo\src\main\java\com\example\demo\test.in, varc=50}
+ > file table = {C:\Users\Octavia\Desktop\MAP\demo\src\main\java\com\example\demo\test.in=java.io.BufferedReader@6ccfe401}
+ > heap = {}
+ > output = [15, 50]
+
+ PROGRAM STATE: 
+ > execution stack = []
+ > id = 1
+ > symbol table = {varf=C:\Users\Octavia\Desktop\MAP\demo\src\main\java\com\example\demo\test.in, varc=50}
+ > file table = {C:\Users\Octavia\Desktop\MAP\demo\src\main\java\com\example\demo\test.in=java.io.BufferedReader@6ccfe401}
+ > heap = {}
+ > output = [15, 50]
+
+ PROGRAM STATE: 
+ > execution stack = [(varf=C:\Users\Octavia\Desktop\MAP\demo\src\main\java\com\example\demo\test.in;(int varc;(OpenRFile(varf);(ReadFile(varf, varc);(print(varc);(ReadFile(varf, varc);(print(varc);CloseRFile(varf)))))))), string varf]
+ > id = 2
+ > symbol table = {}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(varf=C:\Users\Octavia\Desktop\MAP\demo\src\main\java\com\example\demo\test.in;(int varc;(OpenRFile(varf);(ReadFile(varf, varc);(print(varc);(ReadFile(varf, varc);(print(varc);CloseRFile(varf)))))))), string varf]
+ > id = 2
+ > symbol table = {}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(varf=C:\Users\Octavia\Desktop\MAP\demo\src\main\java\com\example\demo\test.in;(int varc;(OpenRFile(varf);(ReadFile(varf, varc);(print(varc);(ReadFile(varf, varc);(print(varc);CloseRFile(varf))))))))]
+ > id = 2
+ > symbol table = {varf=}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(varf=C:\Users\Octavia\Desktop\MAP\demo\src\main\java\com\example\demo\test.in;(int varc;(OpenRFile(varf);(ReadFile(varf, varc);(print(varc);(ReadFile(varf, varc);(print(varc);CloseRFile(varf))))))))]
+ > id = 2
+ > symbol table = {varf=}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(int varc;(OpenRFile(varf);(ReadFile(varf, varc);(print(varc);(ReadFile(varf, varc);(print(varc);CloseRFile(varf))))))), varf=C:\Users\Octavia\Desktop\MAP\demo\src\main\java\com\example\demo\test.in]
+ > id = 2
+ > symbol table = {varf=}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(int varc;(OpenRFile(varf);(ReadFile(varf, varc);(print(varc);(ReadFile(varf, varc);(print(varc);CloseRFile(varf))))))), varf=C:\Users\Octavia\Desktop\MAP\demo\src\main\java\com\example\demo\test.in]
+ > id = 2
+ > symbol table = {varf=}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(int varc;(OpenRFile(varf);(ReadFile(varf, varc);(print(varc);(ReadFile(varf, varc);(print(varc);CloseRFile(varf)))))))]
+ > id = 2
+ > symbol table = {varf=C:\Users\Octavia\Desktop\MAP\demo\src\main\java\com\example\demo\test.in}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(int varc;(OpenRFile(varf);(ReadFile(varf, varc);(print(varc);(ReadFile(varf, varc);(print(varc);CloseRFile(varf)))))))]
+ > id = 2
+ > symbol table = {varf=C:\Users\Octavia\Desktop\MAP\demo\src\main\java\com\example\demo\test.in}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(OpenRFile(varf);(ReadFile(varf, varc);(print(varc);(ReadFile(varf, varc);(print(varc);CloseRFile(varf)))))), int varc]
+ > id = 2
+ > symbol table = {varf=C:\Users\Octavia\Desktop\MAP\demo\src\main\java\com\example\demo\test.in}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(OpenRFile(varf);(ReadFile(varf, varc);(print(varc);(ReadFile(varf, varc);(print(varc);CloseRFile(varf)))))), int varc]
+ > id = 2
+ > symbol table = {varf=C:\Users\Octavia\Desktop\MAP\demo\src\main\java\com\example\demo\test.in}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(OpenRFile(varf);(ReadFile(varf, varc);(print(varc);(ReadFile(varf, varc);(print(varc);CloseRFile(varf))))))]
+ > id = 2
+ > symbol table = {varf=C:\Users\Octavia\Desktop\MAP\demo\src\main\java\com\example\demo\test.in, varc=0}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(OpenRFile(varf);(ReadFile(varf, varc);(print(varc);(ReadFile(varf, varc);(print(varc);CloseRFile(varf))))))]
+ > id = 2
+ > symbol table = {varf=C:\Users\Octavia\Desktop\MAP\demo\src\main\java\com\example\demo\test.in, varc=0}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(ReadFile(varf, varc);(print(varc);(ReadFile(varf, varc);(print(varc);CloseRFile(varf))))), OpenRFile(varf)]
+ > id = 2
+ > symbol table = {varf=C:\Users\Octavia\Desktop\MAP\demo\src\main\java\com\example\demo\test.in, varc=0}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(ReadFile(varf, varc);(print(varc);(ReadFile(varf, varc);(print(varc);CloseRFile(varf))))), OpenRFile(varf)]
+ > id = 2
+ > symbol table = {varf=C:\Users\Octavia\Desktop\MAP\demo\src\main\java\com\example\demo\test.in, varc=0}
+ > file table = {}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(ReadFile(varf, varc);(print(varc);(ReadFile(varf, varc);(print(varc);CloseRFile(varf)))))]
+ > id = 2
+ > symbol table = {varf=C:\Users\Octavia\Desktop\MAP\demo\src\main\java\com\example\demo\test.in, varc=0}
+ > file table = {C:\Users\Octavia\Desktop\MAP\demo\src\main\java\com\example\demo\test.in=java.io.BufferedReader@6ac2301a}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(ReadFile(varf, varc);(print(varc);(ReadFile(varf, varc);(print(varc);CloseRFile(varf)))))]
+ > id = 2
+ > symbol table = {varf=C:\Users\Octavia\Desktop\MAP\demo\src\main\java\com\example\demo\test.in, varc=0}
+ > file table = {C:\Users\Octavia\Desktop\MAP\demo\src\main\java\com\example\demo\test.in=java.io.BufferedReader@6ac2301a}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(print(varc);(ReadFile(varf, varc);(print(varc);CloseRFile(varf)))), ReadFile(varf, varc)]
+ > id = 2
+ > symbol table = {varf=C:\Users\Octavia\Desktop\MAP\demo\src\main\java\com\example\demo\test.in, varc=0}
+ > file table = {C:\Users\Octavia\Desktop\MAP\demo\src\main\java\com\example\demo\test.in=java.io.BufferedReader@6ac2301a}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(print(varc);(ReadFile(varf, varc);(print(varc);CloseRFile(varf)))), ReadFile(varf, varc)]
+ > id = 2
+ > symbol table = {varf=C:\Users\Octavia\Desktop\MAP\demo\src\main\java\com\example\demo\test.in, varc=0}
+ > file table = {C:\Users\Octavia\Desktop\MAP\demo\src\main\java\com\example\demo\test.in=java.io.BufferedReader@6ac2301a}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(print(varc);(ReadFile(varf, varc);(print(varc);CloseRFile(varf))))]
+ > id = 2
+ > symbol table = {varf=C:\Users\Octavia\Desktop\MAP\demo\src\main\java\com\example\demo\test.in, varc=15}
+ > file table = {C:\Users\Octavia\Desktop\MAP\demo\src\main\java\com\example\demo\test.in=java.io.BufferedReader@6ac2301a}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(print(varc);(ReadFile(varf, varc);(print(varc);CloseRFile(varf))))]
+ > id = 2
+ > symbol table = {varf=C:\Users\Octavia\Desktop\MAP\demo\src\main\java\com\example\demo\test.in, varc=15}
+ > file table = {C:\Users\Octavia\Desktop\MAP\demo\src\main\java\com\example\demo\test.in=java.io.BufferedReader@6ac2301a}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(ReadFile(varf, varc);(print(varc);CloseRFile(varf))), print(varc)]
+ > id = 2
+ > symbol table = {varf=C:\Users\Octavia\Desktop\MAP\demo\src\main\java\com\example\demo\test.in, varc=15}
+ > file table = {C:\Users\Octavia\Desktop\MAP\demo\src\main\java\com\example\demo\test.in=java.io.BufferedReader@6ac2301a}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(ReadFile(varf, varc);(print(varc);CloseRFile(varf))), print(varc)]
+ > id = 2
+ > symbol table = {varf=C:\Users\Octavia\Desktop\MAP\demo\src\main\java\com\example\demo\test.in, varc=15}
+ > file table = {C:\Users\Octavia\Desktop\MAP\demo\src\main\java\com\example\demo\test.in=java.io.BufferedReader@6ac2301a}
+ > heap = {}
+ > output = []
+
+ PROGRAM STATE: 
+ > execution stack = [(ReadFile(varf, varc);(print(varc);CloseRFile(varf)))]
+ > id = 2
+ > symbol table = {varf=C:\Users\Octavia\Desktop\MAP\demo\src\main\java\com\example\demo\test.in, varc=15}
+ > file table = {C:\Users\Octavia\Desktop\MAP\demo\src\main\java\com\example\demo\test.in=java.io.BufferedReader@6ac2301a}
+ > heap = {}
+ > output = [15]
+
+ PROGRAM STATE: 
+ > execution stack = [(ReadFile(varf, varc);(print(varc);CloseRFile(varf)))]
+ > id = 2
+ > symbol table = {varf=C:\Users\Octavia\Desktop\MAP\demo\src\main\java\com\example\demo\test.in, varc=15}
+ > file table = {C:\Users\Octavia\Desktop\MAP\demo\src\main\java\com\example\demo\test.in=java.io.BufferedReader@6ac2301a}
+ > heap = {}
+ > output = [15]
+
+ PROGRAM STATE: 
+ > execution stack = [(print(varc);CloseRFile(varf)), ReadFile(varf, varc)]
+ > id = 2
+ > symbol table = {varf=C:\Users\Octavia\Desktop\MAP\demo\src\main\java\com\example\demo\test.in, varc=15}
+ > file table = {C:\Users\Octavia\Desktop\MAP\demo\src\main\java\com\example\demo\test.in=java.io.BufferedReader@6ac2301a}
+ > heap = {}
+ > output = [15]
+
+ PROGRAM STATE: 
+ > execution stack = [(print(varc);CloseRFile(varf)), ReadFile(varf, varc)]
+ > id = 2
+ > symbol table = {varf=C:\Users\Octavia\Desktop\MAP\demo\src\main\java\com\example\demo\test.in, varc=15}
+ > file table = {C:\Users\Octavia\Desktop\MAP\demo\src\main\java\com\example\demo\test.in=java.io.BufferedReader@6ac2301a}
+ > heap = {}
+ > output = [15]
+
+ PROGRAM STATE: 
+ > execution stack = [(print(varc);CloseRFile(varf))]
+ > id = 2
+ > symbol table = {varf=C:\Users\Octavia\Desktop\MAP\demo\src\main\java\com\example\demo\test.in, varc=50}
+ > file table = {C:\Users\Octavia\Desktop\MAP\demo\src\main\java\com\example\demo\test.in=java.io.BufferedReader@6ac2301a}
+ > heap = {}
+ > output = [15]
+
+ PROGRAM STATE: 
+ > execution stack = [(print(varc);CloseRFile(varf))]
+ > id = 2
+ > symbol table = {varf=C:\Users\Octavia\Desktop\MAP\demo\src\main\java\com\example\demo\test.in, varc=50}
+ > file table = {C:\Users\Octavia\Desktop\MAP\demo\src\main\java\com\example\demo\test.in=java.io.BufferedReader@6ac2301a}
+ > heap = {}
+ > output = [15]
+
+ PROGRAM STATE: 
+ > execution stack = [CloseRFile(varf), print(varc)]
+ > id = 2
+ > symbol table = {varf=C:\Users\Octavia\Desktop\MAP\demo\src\main\java\com\example\demo\test.in, varc=50}
+ > file table = {C:\Users\Octavia\Desktop\MAP\demo\src\main\java\com\example\demo\test.in=java.io.BufferedReader@6ac2301a}
+ > heap = {}
+ > output = [15]
+
+ PROGRAM STATE: 
+ > execution stack = [CloseRFile(varf), print(varc)]
+ > id = 2
+ > symbol table = {varf=C:\Users\Octavia\Desktop\MAP\demo\src\main\java\com\example\demo\test.in, varc=50}
+ > file table = {C:\Users\Octavia\Desktop\MAP\demo\src\main\java\com\example\demo\test.in=java.io.BufferedReader@6ac2301a}
+ > heap = {}
+ > output = [15]
+
+ PROGRAM STATE: 
+ > execution stack = [CloseRFile(varf)]
+ > id = 2
+ > symbol table = {varf=C:\Users\Octavia\Desktop\MAP\demo\src\main\java\com\example\demo\test.in, varc=50}
+ > file table = {C:\Users\Octavia\Desktop\MAP\demo\src\main\java\com\example\demo\test.in=java.io.BufferedReader@6ac2301a}
+ > heap = {}
+ > output = [15, 50]
+
+ PROGRAM STATE: 
+ > execution stack = [CloseRFile(varf)]
+ > id = 2
+ > symbol table = {varf=C:\Users\Octavia\Desktop\MAP\demo\src\main\java\com\example\demo\test.in, varc=50}
+ > file table = {C:\Users\Octavia\Desktop\MAP\demo\src\main\java\com\example\demo\test.in=java.io.BufferedReader@6ac2301a}
+ > heap = {}
+ > output = [15, 50]
+
+ PROGRAM STATE: 
+ > execution stack = []
+ > id = 2
+ > symbol table = {varf=C:\Users\Octavia\Desktop\MAP\demo\src\main\java\com\example\demo\test.in, varc=50}
+ > file table = {C:\Users\Octavia\Desktop\MAP\demo\src\main\java\com\example\demo\test.in=java.io.BufferedReader@6ac2301a}
+ > heap = {}
+ > output = [15, 50]
+
+ PROGRAM STATE: 
+ > execution stack = []
+ > id = 2
+ > symbol table = {varf=C:\Users\Octavia\Desktop\MAP\demo\src\main\java\com\example\demo\test.in, varc=50}
+ > file table = {C:\Users\Octavia\Desktop\MAP\demo\src\main\java\com\example\demo\test.in=java.io.BufferedReader@6ac2301a}
+ > heap = {}
+ > output = [15, 50]
+
